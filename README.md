@@ -13,9 +13,10 @@
 
 The business goals of The Happy Co-Space
 
-- Increase revenue with new and returning visitors making bookings.
+- Increase revenue from new visitors making bookings.
+- Increase revenue from returning visitors making long-term bookings.
 - Increase awareness of the venue as _the_ place to go for coworking.
-- Provide a great user experience that visitors want to promote.
+- Provide a great user experience that visitors want to promote and share on social media.
 - (Provide networking and working opportunities to boost local communities.) subgoal
 
 The user goals
