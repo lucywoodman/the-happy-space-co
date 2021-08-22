@@ -43,7 +43,6 @@ body {
 }
 
 .right {
-    /* background-color: #20584d; */
     background: var(--main-color-dark);
     color: #fffefe;
 }
@@ -96,13 +95,11 @@ button {
 }
 
 .left > button {
-    /* background-color: #cb5845; */
     background: var(--comp-color-dark);
     color: #fffefe;
 }
 
 .right > button {
-    /* background-color: #cb5845; */
     background: var(--comp-color);
     color: var(--main-color-darker);
 }
