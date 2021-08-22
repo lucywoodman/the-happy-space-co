@@ -1,5 +1,4 @@
-/* Import Google Fonts: Abril Fatface and Open Sans */
-/* Potentially add Playfair as a secondary header font */
+/* Import Google Fonts: Abril Fatface, Lato and Playfair Display */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Playfair+Display:wght@700;900&display=swap');
 
 :root {
