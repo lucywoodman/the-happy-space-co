@@ -1,0 +1,109 @@
+/* Import Google Fonts: Abril Fatface and Open Sans */
+/* Potentially add Playfair as a secondary header font */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Playfair+Display:wght@700;900&display=swap');
+
+:root {
+    font-size: 62.5%;
+    --header-font: 'Playfair Display', serif;
+    --body-font: 'Lato', sans-serif;
+    --number-font: 'Abril Fatface', cursive, serif;
+
+    --base-color: 165;
+    --complementary-color: calc(var(--base-color) + 180);
+    --main-color: hsl(var(--base-color), 86%, 86%);
+    --main-color-dark: hsl(var(--base-color), 86%, 19%);
+    --main-color-darker: hsl(var(--base-color), 86%, 15%);
+    --comp-color: hsl(var(--complementary-color), 86%, 90%);
+    --comp-color-dark: hsl(var(--complementary-color), 95%, 35%);
+}
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: 2.1rem;
+    line-height: 1.75;
+    background: #bffaeb;
+    color: #20584d;
+}
+
+#typography {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left,
+.right {
+    width: 50%;
+    padding: 3rem 5rem;
+}
+
+.right {
+    /* background-color: #20584d; */
+    background: var(--main-color-dark);
+    color: #fffefe;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--header-font);
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 6.74rem;
+}
+
+h2 {
+    font-size: 5.05rem;
+}
+
+h3 {
+    font-size: 3.79rem;
+}
+
+h4 {
+    font-size: 2.84rem;
+    font-weight: 700;
+    line-height: 2;
+}
+
+p {
+    max-width: 510px;
+    margin: 3rem 0;
+}
+
+.pricing__text {
+    line-height: 1.5;
+    font-size: 1.8rem;
+}
+
+.number {
+    font-family: var(--number-font);
+    font-size: 5rem;
+}
+
+button {
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+
+.left > button {
+    /* background-color: #cb5845; */
+    background: var(--comp-color-dark);
+    color: #fffefe;
+}
+
+.right > button {
+    /* background-color: #cb5845; */
+    background: var(--comp-color);
+    color: var(--main-color-darker);
+}
