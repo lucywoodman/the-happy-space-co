@@ -7,13 +7,11 @@
     --body-font: 'Lato', sans-serif;
     --number-font: 'Abril Fatface', cursive, serif;
 
-    --base-color: 165;
-    --complementary-color: calc(var(--base-color) + 180);
-    --main-color: hsl(var(--base-color), 86%, 86%);
-    --main-color-dark: hsl(var(--base-color), 86%, 19%);
-    --main-color-darker: hsl(var(--base-color), 86%, 15%);
-    --comp-color: hsl(var(--complementary-color), 86%, 90%);
-    --comp-color-dark: hsl(var(--complementary-color), 95%, 35%);
+    --brand-pink: hsl(8, 100%, 100%);
+    --brand-coral: hsl(4, 75%, 76%);
+    --brand-green: hsl(140, 93%, 12%);
+    --brand-mint: hsl(165, 86%, 86%);
+    --text-color: hsl(0, 0%, 7%);
 }
 
 * {
@@ -26,8 +24,8 @@ body {
     font-family: var(--body-font);
     font-size: 2.1rem;
     line-height: 1.75;
-    background: #bffaeb;
-    color: #20584d;
+    background: var(--brand-mint);
+    color: var(--brand-green);
 }
 
 #typography {
@@ -43,7 +41,7 @@ body {
 }
 
 .right {
-    background: var(--main-color-dark);
+    background: var(--brand-green);
     color: #fffefe;
 }
 
@@ -92,14 +90,6 @@ button {
     padding: 2rem 3rem;
     border-radius: 15px;
     font-size: 1.8rem;
-}
-
-.left > button {
-    background: var(--comp-color-dark);
+    background: var(--brand-coral);
     color: #fffefe;
-}
-
-.right > button {
-    background: var(--comp-color);
-    color: var(--main-color-darker);
 }
