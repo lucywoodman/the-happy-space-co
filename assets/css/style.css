@@ -24,7 +24,7 @@ body {
     font-family: var(--body-font);
     font-size: 2.1rem;
     line-height: 1.75;
-    background: var(--brand-mint);
+    background: #fffefe;
     color: var(--brand-green);
 }
 
