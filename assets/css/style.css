@@ -97,11 +97,6 @@ a:active {
     color: var(--brand-coral);
 }
 
-.pricing__text {
-    line-height: var(--line-small);
-    font-size: var(--body-small);
-}
-
 .number {
     font-family: var(--number-font);
     font-size: var(--number-size);
