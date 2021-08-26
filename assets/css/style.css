@@ -213,6 +213,11 @@ a:active,
     box-shadow: var(--shadow-md);
 }
 
+.img--lg {
+    border-radius: 15px;
+    box-shadow: var(--shadow-xl);
+}
+
 .break {
     width: 100%;
 }
