@@ -12,6 +12,7 @@
     --body-large: 2.2rem;
     --body-standard: 2.1rem;
     --body-small: 1.8rem;
+    --number-size: 5rem;
 
     --brand-pink: hsl(8, 100%, 100%);
     --brand-coral: hsl(4, 75%, 76%);
@@ -84,7 +85,7 @@ a:active {
 
 .number {
     font-family: var(--number-font);
-    font-size: 5rem;
+    font-size: var(--number-size);
 }
 
 .button {
