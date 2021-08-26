@@ -58,7 +58,6 @@ body {
 }
 
 /* || LAYOUT */
-
 .inner {
     max-width: 144rem;
     margin: 0 auto;
@@ -101,7 +100,6 @@ p {
 }
 
 /* || Links and special classes */
-
 a {
     color: var(--brand-green);
     text-decoration: none;
@@ -156,8 +154,8 @@ a:active {
 }
 
 /* || HEADER */
-
-header {
+header,
+.hero {
     background: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--brand-mint) 60%, var(--brand-mint) 100%);
     width: 100%;
 }
@@ -180,4 +178,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* || HERO */
+.hero__left {
+    width: 50%;
 }
