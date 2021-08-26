@@ -123,9 +123,19 @@ cite {
     font-style: normal;
 }
 
+/* \\ Icons */
 i {
     vertical-align: -.2em;
     margin-left: .5rem;
+}
+
+.trustpilot i {
+    background: #FFBA7D;
+    color: var(--white);
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-right: 5px;
 }
 
 /* || Links and special classes */
@@ -157,6 +167,10 @@ a:active {
 .button:hover {
     background: var(--brand-green);
     box-shadow: var(--shadow-md);
+}
+
+.trustpilot a:hover {
+    background: none;
 }
 
 .text--sm {
