@@ -214,3 +214,7 @@ nav {
 .hero__cta a {
     margin-right: var(--spacing-sm);
 }
+
+.hero__right {
+    width: 73rem;
+}
