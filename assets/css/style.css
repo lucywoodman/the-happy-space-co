@@ -190,6 +190,10 @@ a:active,
 
 .text--number {
     font-family: var(--font-num);
+}
+
+.text--price {
+    font-family: var(--font-num);
     font-size: var(--font-size-num);
 }
 
@@ -292,6 +296,7 @@ nav {
 /* || FEATURES/PERKS */
 .features {
     background: var(--brand-pink);
+    color: var(--text-color);
 }
 
 .perks {
