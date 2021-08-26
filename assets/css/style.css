@@ -45,7 +45,15 @@ body {
     color: var(--brand-green);
 }
 
-/* || BASICS */
+/* || LAYOUT */
+
+.inner {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 3.5rem;
+}
+
+/* || TYPOGRAPHY */
 h1,
 h2,
 h3,
@@ -76,6 +84,8 @@ p {
     max-width: 510px;
     margin: 3rem 0;
 }
+
+/* || Links and special classes */
 
 a {
     color: var(--brand-green);
