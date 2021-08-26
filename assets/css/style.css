@@ -9,6 +9,10 @@
     --body-font: 'Lato', sans-serif;
     --number-font: 'Abril Fatface', cursive, serif;
 
+    --body-large: 2.2rem;
+    --body-standard: 2.1rem;
+    --body-small: 1.8rem;
+
     --brand-pink: hsl(8, 100%, 100%);
     --brand-coral: hsl(4, 75%, 76%);
     --brand-green: hsl(140, 93%, 12%);
@@ -24,7 +28,7 @@
 
 body {
     font-family: var(--body-font);
-    font-size: 2.1rem;
+    font-size: var(--body-standard);
     line-height: 1.75;
     background: #fffefe;
     color: var(--brand-green);
@@ -74,7 +78,7 @@ a:active {
 
 .pricing__text {
     line-height: 1.5;
-    font-size: 1.8rem;
+    font-size: var(--body-small);
 }
 
 .number {
@@ -85,7 +89,7 @@ a:active {
 .button {
     padding: 2rem 3rem;
     border-radius: 15px;
-    font-size: 1.8rem;
+    font-size: var(--body-large);
     background: var(--brand-coral);
     color: #fffefe;
 }
