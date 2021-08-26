@@ -213,6 +213,18 @@ a:active,
     box-shadow: var(--shadow-md);
 }
 
+.break {
+    width: 100%;
+}
+
+.break:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: var(--text-color);
+}
+
 /* || HEADER */
 header,
 .hero {
@@ -299,18 +311,6 @@ nav {
     color: var(--text-color);
     padding-top: var(--spacing-lg);
     padding-bottom: var(--spacing-lg);
-}
-
-.break {
-    width: 100%;
-}
-
-.break:after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 2px;
-    background: var(--text-color);
 }
 
 .perks {
