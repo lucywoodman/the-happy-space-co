@@ -41,6 +41,12 @@
     --shadow-md: 0px 12px 12px -6px rgba(0, 0, 0, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0px 8px 24px -6px rgba(0, 0, 0, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.4);
     --shadow-xl: 0px 32px 32px -8px rgba(0, 0, 0, 0.08), 0px 0px 32px -8px rgba(0, 0, 0, 0.12);
+
+    /* || Sizing */
+    --width-xlg: 62rem;
+    --width-lg: 51rem;
+    --width-md: 40rem;
+    --width-sm: 29rem;
 }
 
 * {
@@ -96,7 +102,7 @@ h4 {
 }
 
 p {
-    max-width: 510px;
+    max-width: var(--width-lg);
     margin: 3rem 0;
 }
 
@@ -183,5 +189,5 @@ nav {
 
 /* || HERO */
 .hero__left {
-    width: 50%;
+    width: var(--width-lg);
 }
