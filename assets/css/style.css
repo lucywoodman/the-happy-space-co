@@ -14,6 +14,10 @@
     --body-small: 1.8rem;
     --number-size: 5rem;
 
+    --line-large: 2;
+    --line-standard: 1.75;
+    --line-small: 1.5;
+
     --brand-pink: hsl(8, 100%, 100%);
     --brand-coral: hsl(4, 75%, 76%);
     --brand-green: hsl(140, 93%, 12%);
@@ -31,7 +35,7 @@
 body {
     font-family: var(--body-font);
     font-size: var(--body-standard);
-    line-height: 1.75;
+    line-height: var(--line-standard);
     background: var(--white);
     color: var(--brand-green);
 }
@@ -60,7 +64,7 @@ h3 {
 h4 {
     font-size: 2.84rem;
     font-weight: 700;
-    line-height: 2;
+    line-height: var(--line-large);
 }
 
 p {
@@ -79,7 +83,7 @@ a:active {
 }
 
 .pricing__text {
-    line-height: 1.5;
+    line-height: var(--line-small);
     font-size: var(--body-small);
 }
 
