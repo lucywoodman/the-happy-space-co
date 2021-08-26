@@ -114,7 +114,6 @@ p {
 }
 
 blockquote {
-    max-width: var(--width-lg);
     font-style: italic;
 }
 
@@ -301,6 +300,7 @@ nav {
 }
 
 .hero__right blockquote {
+    max-width: var(--width-lg);
     margin-top: -5rem;
     display: flex;
     background: var(--white);
@@ -335,4 +335,33 @@ nav {
 
 .perks__item {
     width: var(--width-sm);
+}
+
+/* || TESTIMONIALS */
+.testimonials {
+    margin-top: -70px;
+    width: 100%;
+}
+
+.testimonials .inner {
+    flex-direction: column;
+}
+
+.testimonials blockquote {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials .inner > blockquote:first-child {
+    align-self: flex-start;
+    margin-bottom: var(--spacing-sm);
+}
+
+.testimonials .inner > blockquote:last-child {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.testimonials blockquote p {
+    margin: 0 var(--spacing-md);
 }
