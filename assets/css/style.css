@@ -170,6 +170,17 @@ a:active {
     background-position: 0% 85%;
 }
 
+/* || IMAGES */
+.avatar {
+    border-radius: 50%;
+    box-shadow: var(--shadow-sm);
+}
+
+.img--xlg {
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
+}
+
 /* || HEADER */
 header,
 .hero {
