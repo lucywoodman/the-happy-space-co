@@ -63,6 +63,9 @@ body {
     max-width: 144rem;
     margin: 0 auto;
     padding: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* || TYPOGRAPHY */
@@ -107,7 +110,7 @@ a {
 a:hover,
 a:active {
     display: inline;
-    background-image: linear-gradient(90deg, var(--brand-mint), var(--brand-mint));
+    background-image: linear-gradient(90deg, var(--brand-coral), var(--brand-coral));
     background-repeat: no-repeat;
     background-size: 100% 12px;
     background-position: 0% 90%;
@@ -146,4 +149,15 @@ header {
 #logo {
     font-size: 3.2rem;
     font-weight: var(--font-weight-bold);
+}
+
+nav {
+    width: 45%;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
