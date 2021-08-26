@@ -1,7 +1,6 @@
 /* Import Google Fonts: Abril Fatface, Lato and Playfair Display */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Playfair+Display:wght@700;900&display=swap');
 
-
 /* || GLOBAL STYLING */
 :root {
     /* Set root font size to 10px */
@@ -90,7 +89,8 @@ h4 {
     font-weight: var(--font-weight-black);
 }
 
-h1 {
+h1,
+.title {
     font-size: 6.74rem;
     line-height: var(--line-height-xsm);
 }
@@ -419,6 +419,7 @@ nav {
     border-radius: 15px;
 }
 
+/* Hat tip to https://morioh.com/p/8ed37dfd6b7d for the assistance */
 summary {
     cursor: pointer;
     position: relative;
