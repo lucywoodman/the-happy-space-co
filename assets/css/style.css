@@ -123,6 +123,11 @@ cite {
     font-style: normal;
 }
 
+i {
+    vertical-align: -.2em;
+    margin-left: .5rem;
+}
+
 /* || Links and special classes */
 a {
     color: var(--brand-green);
