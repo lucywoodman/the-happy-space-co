@@ -295,9 +295,11 @@ nav {
 }
 
 .perks {
+    margin-top: var(--spacing-lg);
     list-style-type: none;
     display: flex;
-
+    width: 100%;
+    justify-content: space-between;
 }
 
 .perks__item {
