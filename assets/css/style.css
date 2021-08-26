@@ -365,3 +365,54 @@ nav {
 .testimonials blockquote p {
     margin: 0 var(--spacing-md);
 }
+
+/* || FAQ */
+.faq {
+    background: var(--brand-mint);
+}
+
+.faq .inner {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.faq__title {
+    width: var(--width-md);
+}
+
+.faq__list {
+    width: var(--width-xlg);
+    display: flex;
+    flex-direction: column;
+}
+
+.faq__item {
+    background: var(--white);
+    margin-bottom: var(--spacing-sm);
+    padding: 1.4rem 3rem;
+    border-radius: 15px;
+}
+
+summary {
+    cursor: pointer;
+    position: relative;
+    padding-left: 50px;
+}
+
+details > summary:before {
+    position: absolute;
+    color: var(--brand-coral);
+    content: "+";
+    left: 5px;
+}
+
+details[open] > summary:before {
+    position: absolute;
+    color: var(--brand-coral);
+    content: "-";
+    left: 5px;
+}
+
+details > summary {
+    list-style-type: none;
+}
