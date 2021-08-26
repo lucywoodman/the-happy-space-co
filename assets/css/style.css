@@ -2,22 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Playfair+Display:wght@700;900&display=swap');
 
 
-/* || GLOBALS */
+/* || GLOBAL STYLING */
 :root {
+    /* Set root font size to 10px */
     font-size: 62.5%;
-    --header-font: 'Playfair Display', serif;
-    --body-font: 'Lato', sans-serif;
-    --number-font: 'Abril Fatface', cursive, serif;
 
-    --body-large: 2.2rem;
-    --body-standard: 2.1rem;
-    --body-small: 1.8rem;
-    --number-size: 5rem;
+    /* || Fonts */
+    --font-head: 'Playfair Display', serif;
+    --font-body: 'Lato', sans-serif;
+    --font-num: 'Abril Fatface', cursive, serif;
 
-    --line-large: 2;
-    --line-standard: 1.75;
-    --line-small: 1.5;
+    /* || Font sizes */
+    --font-size-lg: 2.2rem;
+    --font-size-md: 2.1rem;
+    --font-size-sm: 1.8rem;
+    --font-size-num: 5rem;
 
+    /* || Line height */
+    --line-height-lg: 2;
+    --line-height-md: 1.75;
+    --line-height-sm: 1.5;
+
+    /* || Colours */
     --brand-pink: hsl(8, 100%, 100%);
     --brand-coral: hsl(4, 75%, 76%);
     --brand-green: hsl(140, 93%, 12%);
@@ -25,6 +31,7 @@
     --text-color: hsl(0, 0%, 7%);
     --white: #fffefe;
 
+    /* || Box shadows */
     --shadow-sm: 0px 6px 6px -6px rgba(0, 0, 0, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.4);
     --shadow-md: 0px 12px 12px -6px rgba(0, 0, 0, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0px 8px 24px -6px rgba(0, 0, 0, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.4);
@@ -38,9 +45,9 @@
 }
 
 body {
-    font-family: var(--body-font);
-    font-size: var(--body-standard);
-    line-height: var(--line-standard);
+    font-family: var(--font-body);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
     background: var(--white);
     color: var(--brand-green);
 }
@@ -58,7 +65,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: var(--header-font);
+    font-family: var(--font-head);
     font-weight: 900;
 }
 
@@ -77,7 +84,7 @@ h3 {
 h4 {
     font-size: 2.84rem;
     font-weight: 700;
-    line-height: var(--line-large);
+    line-height: var(--line-height-lg);
 }
 
 p {
@@ -100,7 +107,7 @@ a:active {
 .button {
     padding: 1.4rem 3rem 1.6rem;
     border-radius: 15px;
-    font-size: var(--body-large);
+    font-size: var(--font-size-lg);
     background: var(--brand-coral);
     color: var(--white);
 }
