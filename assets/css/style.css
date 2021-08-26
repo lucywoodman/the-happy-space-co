@@ -27,6 +27,7 @@
     --line-height-lg: 2;
     --line-height-md: 1.75;
     --line-height-sm: 1.5;
+    --line-height-xsm: 1.44;
 
     /* || Colours */
     --brand-pink: hsl(8, 100%, 94%);
@@ -84,7 +85,7 @@ h4 {
 
 h1 {
     font-size: 6.74rem;
-    line-height: var(--line-height-sm);
+    line-height: var(--line-height-xsm);
 }
 
 h2 {
