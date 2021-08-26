@@ -71,7 +71,8 @@ body {
 }
 
 /* || LAYOUT */
-.inner {
+.inner,
+.copyright {
     max-width: 128rem;
     margin: 0 auto;
     padding: 3.5rem;
@@ -193,6 +194,11 @@ a:active,
 
 .text--number {
     font-family: var(--font-num);
+}
+
+.text--phone {
+    font-family: var(--font-num);
+    font-size: 3rem;
 }
 
 .text--price {
@@ -451,6 +457,11 @@ details > summary {
 footer {
     background: var(--brand-green);
     color: var(--white);
+    line-height: var(--line-height-lg);
+}
+
+footer .inner {
+    align-items: flex-start;
 }
 
 footer a {
@@ -464,4 +475,14 @@ footer a:active {
 
 .footer__nav {
     list-style-type: none;
+}
+
+.social__icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    justify-content: flex-end;
 }
