@@ -239,9 +239,16 @@ nav {
 
 .hero__right {
     width: 73rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__right .img--xlg {
+    align-self: flex-end;
 }
 
 .hero__right blockquote {
+    margin-top: -5rem;
     display: flex;
     background: var(--white);
     border-radius: 15px;
