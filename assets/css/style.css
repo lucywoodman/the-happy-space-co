@@ -113,6 +113,16 @@ p {
     margin: 3rem 0;
 }
 
+blockquote {
+    max-width: var(--width-lg);
+    font-style: italic;
+}
+
+cite {
+    font-size: var(--font-size-sm);
+    font-style: normal;
+}
+
 /* || Links and special classes */
 a {
     color: var(--brand-green);
@@ -174,6 +184,7 @@ a:active {
 .avatar {
     border-radius: 50%;
     box-shadow: var(--shadow-sm);
+    margin-right: var(--spacing-sm);
 }
 
 .img--xlg {
@@ -228,4 +239,17 @@ nav {
 
 .hero__right {
     width: 73rem;
+}
+
+.hero__right blockquote {
+    display: flex;
+    background: var(--white);
+    border-radius: 15px;
+    z-index: 1;
+    box-shadow: var(--shadow-lg);
+    padding: var(--spacing-sm);
+}
+
+.hero__right blockquote p {
+    margin: 0;
 }
