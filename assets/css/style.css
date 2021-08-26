@@ -122,6 +122,10 @@ cite {
     font-style: normal;
 }
 
+address {
+    font-style: normal;
+}
+
 /* \\ Icons */
 i {
     vertical-align: -.2em;
@@ -441,4 +445,23 @@ details > summary {
 
 .call-to-action .h1--underline {
     background-image: linear-gradient(90deg, var(--brand-coral), var(--brand-coral));
+}
+
+/* || FOOTER */
+footer {
+    background: var(--brand-green);
+    color: var(--white);
+}
+
+footer a {
+    color: var(--white);
+}
+
+footer a:hover,
+footer a:active {
+    background-image: linear-gradient(90deg, var(--brand-coral), var(--brand-coral));
+}
+
+.footer__nav {
+    list-style-type: none;
 }
