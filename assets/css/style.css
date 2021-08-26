@@ -288,3 +288,18 @@ nav {
 .hero__right blockquote p {
     margin: 0;
 }
+
+/* || FEATURES/PERKS */
+.features {
+    background: var(--brand-pink);
+}
+
+.perks {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.perks__item {
+    width: var(--width-sm);
+}
