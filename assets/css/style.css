@@ -438,3 +438,7 @@ details > summary {
 .call-to-action .inner {
     flex-direction: column;
 }
+
+.call-to-action .h1--underline {
+    background-image: linear-gradient(90deg, var(--brand-coral), var(--brand-coral));
+}
