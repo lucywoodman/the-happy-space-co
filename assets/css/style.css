@@ -1,6 +1,8 @@
 /* Import Google Fonts: Abril Fatface, Lato and Playfair Display */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Playfair+Display:wght@700;900&display=swap');
 
+
+/* || GLOBALS */
 :root {
     font-size: 62.5%;
     --header-font: 'Playfair Display', serif;
@@ -28,8 +30,7 @@ body {
     color: var(--brand-green);
 }
 
-/* Typography */
-
+/* || BASICS */
 h1,
 h2,
 h3,
@@ -89,7 +90,7 @@ a:active {
     color: #fffefe;
 }
 
-/* Header */
+/* || HEADER */
 
 #logo {
     font-size: 3.2rem;
