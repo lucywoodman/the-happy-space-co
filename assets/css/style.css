@@ -262,7 +262,7 @@ nav {
 
 /* || HERO */
 .hero {
-    padding-bottom: calc(var(--spacing-lg) + var(--spacing-sm));
+    padding-bottom: var(--spacing-xlg);
 }
 
 .hero__left,
@@ -369,6 +369,10 @@ nav {
 /* || FAQ */
 .faq {
     background: var(--brand-mint);
+    padding-top: var(--spacing-xlg);
+    margin-top: -60px;
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
 }
 
 .faq .inner {
@@ -378,6 +382,10 @@ nav {
 
 .faq__title {
     width: var(--width-md);
+}
+
+.faq__title h1 {
+    margin-bottom: var(--spacing-sm);
 }
 
 .faq__list {
