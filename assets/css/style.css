@@ -123,20 +123,12 @@ a:active {
     background: var(--brand-coral);
     cursor: pointer;
     transition: all .5s ease-out;
+    color: var(--white);
 }
 
 .button:hover {
     background: var(--brand-green);
     box-shadow: var(--shadow-md);
-}
-
-.button a {
-    color: var(--white);
-}
-
-.button a:hover, 
-.button a:active {
-    background: none;
 }
 
 .text--sm {
