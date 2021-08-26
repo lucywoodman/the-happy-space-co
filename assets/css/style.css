@@ -29,7 +29,7 @@
     --line-height-sm: 1.5;
 
     /* || Colours */
-    --brand-pink: hsl(8, 100%, 100%);
+    --brand-pink: hsl(8, 100%, 94%);
     --brand-coral: hsl(4, 75%, 76%);
     --brand-green: hsl(140, 93%, 12%);
     --brand-mint: hsl(165, 86%, 86%);
@@ -106,7 +106,11 @@ a {
 
 a:hover,
 a:active {
-    color: var(--brand-coral);
+    display: inline;
+    background-image: linear-gradient(90deg, var(--brand-mint), var(--brand-mint));
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    background-position: 0% 90%;
 }
 
 .button {
@@ -143,4 +147,3 @@ header {
     font-size: 3.2rem;
     font-weight: var(--font-weight-bold);
 }
-
