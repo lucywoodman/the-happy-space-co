@@ -426,3 +426,15 @@ details[open] > summary:before {
 details > summary {
     list-style-type: none;
 }
+
+/* || CALL TO ACTION */
+.call-to-action {
+    background: var(--brand-green);
+    color: var(--white);
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+
+.call-to-action .inner {
+    flex-direction: column;
+}
