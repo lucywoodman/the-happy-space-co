@@ -257,6 +257,10 @@ nav {
 }
 
 /* || HERO */
+.hero {
+    padding-bottom: calc(var(--spacing-lg) + var(--spacing-sm));
+}
+
 .hero__left,
 .hero__right {
     align-self: flex-start;
@@ -307,10 +311,13 @@ nav {
 
 /* || FEATURES/PERKS */
 .features {
+    margin-top: -30px;
     background: var(--brand-pink);
     color: var(--text-color);
     padding-top: var(--spacing-lg);
     padding-bottom: var(--spacing-lg);
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
 }
 
 .perks {
