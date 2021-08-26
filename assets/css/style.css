@@ -207,6 +207,8 @@ nav {
     justify-content: left;
     align-items: center;
     width: var(--width-md);
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
 }
 
 .hero__cta a {
