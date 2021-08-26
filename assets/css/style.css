@@ -251,6 +251,12 @@ header,
     font-weight: var(--font-weight-bold);
 }
 
+#logo:before {
+    content: url(../images/logo.svg);
+    vertical-align: -10px;
+    margin-right: 10px;
+}
+
 #logo a:hover {
     background-position: 0% 90%;
 }
