@@ -264,6 +264,20 @@ a:active {
     box-shadow: var(--shadow-xl);
 }
 
+.logo {
+    width: 26px;
+    height: 26px;
+    margin-right: 1rem;
+    vertical-align: -3px;
+}
+
+@media all and (min-width: 1024px) {
+    .logo {
+        width: 32px;
+        height: 32px;
+    }
+}
+
 /* || Divider */
 .break { 
     width: 100%; 
