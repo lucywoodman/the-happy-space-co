@@ -614,9 +614,6 @@ details > summary {
     color: var(--white);
     padding-top: var(--spacing-lg);
     padding-bottom: var(--spacing-lg);
-}
-
-.call-to-action .title {
     text-align: center;
 }
 
