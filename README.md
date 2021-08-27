@@ -1,8 +1,8 @@
 # The Happy Space Co.
 
-[Live webpage]()
+[Live webpage](https://lucywoodman.github.io/the-happy-space-co/)
 
-![Mockup image]()
+![Mockup image](assets/docs/mockup.png)
 
 ## Table of content
 
