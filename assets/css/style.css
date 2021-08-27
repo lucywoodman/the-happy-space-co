@@ -81,7 +81,7 @@ body {
 .inner,
 .copyright {
     width: 100%;
-    padding: 3.5rem;
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -616,7 +616,12 @@ footer {
 }
 
 footer .inner {
-    align-items: flex-start;
+    align-items: center;
+}
+
+footer .inner > * {
+    text-align: center;
+    margin-bottom: var(--spacing-md);
 }
 
 footer a {
@@ -635,4 +640,10 @@ footer a {
 
 .copyright {
     justify-content: flex-end;
+}
+
+@media all and (min-width: 1024px) {
+    footer .inner {
+        align-items: flex-start;
+    }
 }
