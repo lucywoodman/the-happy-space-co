@@ -140,6 +140,7 @@ blockquote {
 cite {
     font-size: var(--font-size-sm);
     font-style: normal;
+    color: var(--brand-coral);
 }
 
 address { 
@@ -474,7 +475,15 @@ nav {
     flex-direction: column;
 }
 
+.testimonials img {
+    margin: var(--spacing-sm) 0;
+}
+
 @media (min-width: 1024px) {
+    .testimonials img {
+        margin: 0;
+    }
+    
     .testimonials .inner {
         flex-direction: column;
     }
