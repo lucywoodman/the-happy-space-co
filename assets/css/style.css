@@ -279,6 +279,9 @@ a:active {
 }
 
 /* || Divider */
+/* Hat tip to
+https://techbriefers.com/how-to-create-a-half-border-design-and-fixed-width-border-design-in-css/
+for the blog post */
 .break { 
     width: 100%; 
 }
