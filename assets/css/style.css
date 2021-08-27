@@ -274,6 +274,7 @@ a:active {
     flex: 1;
 }
 
+/* Hat tip to https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535 for the blog post on mobile navigation */
 nav {
     width: 100%;
 }
@@ -482,7 +483,7 @@ nav {
     border-radius: 15px;
 }
 
-/* Hat tip to https://morioh.com/p/8ed37dfd6b7d for the blog post */
+/* Hat tip to https://morioh.com/p/8ed37dfd6b7d for the blog post on the details tag */
 summary {
     cursor: pointer;
     position: relative;
