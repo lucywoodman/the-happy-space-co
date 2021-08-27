@@ -2,7 +2,7 @@
 
 [Live webpage](https://lucywoodman.github.io/the-happy-space-co/)
 
-![Mockup image](assets/docs/mockup.png)
+![Mockup image](docs/mockup.png)
 
 ## Table of content
 
