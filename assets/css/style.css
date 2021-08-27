@@ -512,29 +512,27 @@ nav {
 /* || FAQ */
 .faq {
     background: var(--brand-mint);
-    padding-top: var(--spacing-xlg);
-    margin-top: -60px;
+    padding-top: var(--spacing-lg);
     border-radius: 15px;
     box-shadow: var(--shadow-md);
     padding-bottom: var(--spacing-lg);
 }
 
 .faq .inner {
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
 }
 
 .faq__title {
     width: var(--width-md);
-    margin-right: var(--spacing-md);
 }
 
-.faq__title h1 {
+.faq__title h2 {
     margin-bottom: var(--spacing-sm);
 }
 
 .faq__list {
-    width: var(--width-xlg);
+    max-width: var(--width-xlg);
     display: flex;
     flex-direction: column;
 }
@@ -544,6 +542,22 @@ nav {
     margin-bottom: var(--spacing-sm);
     padding: 1.4rem 3rem;
     border-radius: 15px;
+}
+
+@media all and (min-width: 1024px) {
+    .faq {
+        margin-top: -60px;
+        padding-top: var(--spacing-xlg);
+    }
+
+    .faq .inner {
+        align-items: flex-start;
+    }
+
+    .faq__title {
+        width: var(--width-md);
+        margin-right: var(--spacing-md);
+    }
 }
 
 /* Hat tip to 
