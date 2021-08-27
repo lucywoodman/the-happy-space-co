@@ -270,7 +270,8 @@ a:active {
 
 /* || HEADER and NAVIGATION */
 .hero {
-    background: var(--brand-mint);
+    background: linear-gradient(hsla(165, 86%, 86%, 0.6), hsla(165, 86%, 86%, 1)),
+    url("../images/hero__main.png") center / cover no-repeat;
 }
 
 #logo {
@@ -338,7 +339,7 @@ nav {
 
 /* || HERO */
 .hero {
-    padding-bottom: var(--spacing-xlg);
+    padding-bottom: var(--spacing-md);
 }
 
 .hero__left,
@@ -348,6 +349,9 @@ nav {
 }
 
 .hero__left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding-top: var(--spacing-md);
     text-align: center;
 }
@@ -371,8 +375,7 @@ nav {
 
 .hero__right {
     padding-top: var(--spacing-sm);
-    display: flex;
-    flex-direction: column;
+    display: none;
 }
 
 .hero__right blockquote {
@@ -391,6 +394,10 @@ nav {
 }
 
 @media (min-width: 1024px) {
+    .hero {
+        padding-bottom: var(--spacing-xlg);
+    }
+
     .hero__left {
         width: var(--width-lg);
         text-align: left;
@@ -406,6 +413,7 @@ nav {
     }
 
     .hero__right {
+        display: flex;
         width: 73rem;
     }
 
