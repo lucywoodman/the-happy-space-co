@@ -356,12 +356,6 @@ nav {
     display: none;
 }
 
-.hero__right {
-    padding-top: var(--spacing-sm);
-    display: flex;
-    flex-direction: column;
-}
-
 .hero__cta {
     display: flex;
     justify-content: center;
@@ -375,9 +369,10 @@ nav {
     margin-right: var(--spacing-sm);
 }
 
-.hero__right .img--xlg {
-    width: 100%;
-    height: auto;
+.hero__right {
+    padding-top: var(--spacing-sm);
+    display: flex;
+    flex-direction: column;
 }
 
 .hero__right blockquote {
