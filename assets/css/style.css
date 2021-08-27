@@ -70,15 +70,26 @@ body {
 }
 
 /* || LAYOUT */
+
 .inner,
 .copyright {
-    max-width: 128rem;
-    margin: 0 auto;
+    width: 100%;
     padding: 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
+
+@media (min-width: 768px) {
+    .inner,
+    .copyright {
+        flex-direction: row;
+        max-width: 128rem;
+        margin: 0 auto;
+    }    
+}
+
 
 /* || TYPOGRAPHY */
 h1,
