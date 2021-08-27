@@ -59,6 +59,7 @@
     border: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -95,7 +96,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+#logo {
     font-family: var(--font-head);
     font-weight: var(--font-weight-black);
 }
@@ -106,12 +108,12 @@ h1,
     line-height: var(--line-height-xsm);
 }
 
-h2 {
-    font-size: 5.05rem;
+h2 { 
+    font-size: 5.05rem; 
 }
 
-h3 {
-    font-size: 3.79rem;
+h3 { 
+    font-size: 3.79rem; 
 }
 
 h4 {
@@ -125,8 +127,8 @@ p {
     margin: 3rem 0;
 }
 
-blockquote {
-    font-style: italic;
+blockquote { 
+    font-style: italic; 
 }
 
 cite {
@@ -134,8 +136,8 @@ cite {
     font-style: normal;
 }
 
-address {
-    font-style: normal;
+address { 
+    font-style: normal; 
 }
 
 /* \\ Icons */
@@ -153,21 +155,16 @@ i {
     margin-right: 5px;
 }
 
-/* || Links and special classes */
+/* || Links */
 a {
     color: var(--brand-green);
     text-decoration: none;
 }
 
 a:hover,
-a:active,
-.h1--underline,
-.nav__item--active {
-    display: inline;
-    background-image: linear-gradient(90deg, var(--brand-pink), var(--brand-pink));
-    background-repeat: no-repeat;
-    background-size: 100% 12px;
-    background-position: 0% 110%;
+a:active {
+    color: var(--brand-coral);
+    text-decoration: underline;
 }
 
 .button {
@@ -186,25 +183,36 @@ a:active,
     box-shadow: var(--shadow-md);
 }
 
-.trustpilot a:hover {
-    background: none;
+.trustpilot a:hover,
+.trustpilot a:active {
+    text-decoration: none;
+    color: var(--brand-green);
+}
+
+/* || Special text classes */
+.h1--underline {
+    display: inline;
+    background-image: linear-gradient(90deg, var(--brand-pink), var(--brand-pink));
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    background-position: 0% 85%;
+}
+
+.text--lg { 
+    font-size: var(--font-size-lg); 
+}
+
+.text--bold { 
+    font-weight: var(--font-weight-bold); 
+}
+
+.text--number { 
+    font-family: var(--font-num); 
 }
 
 .text--sm {
     font-size: var(--font-size-sm);
     line-height: var(--line-height-sm);
-}
-
-.text--lg {
-    font-size: var(--font-size-lg);
-}
-
-.text--bold {
-    font-weight: var(--font-weight-bold);
-}
-
-.text--number {
-    font-family: var(--font-num);
 }
 
 .text--phone {
@@ -215,10 +223,6 @@ a:active,
 .text--price {
     font-family: var(--font-num);
     font-size: var(--font-size-num);
-}
-
-.h1--underline {
-    background-position: 0% 85%;
 }
 
 /* || IMAGES */
@@ -238,8 +242,9 @@ a:active,
     box-shadow: var(--shadow-xl);
 }
 
-.break {
-    width: 100%;
+/* || Divider */
+.break { 
+    width: 100%; 
 }
 
 .break:after {
@@ -250,7 +255,7 @@ a:active,
     background: var(--text-color);
 }
 
-/* || HEADER */
+/* || HEADER and NAVIGATION */
 .hero {
     background: var(--brand-mint);
 }
@@ -263,35 +268,56 @@ a:active,
     }   
 }
 
-
 #logo {
     font-size: 3.2rem;
     font-weight: var(--font-weight-bold);
-}
-
-#logo:before {
-    content: url(../images/logo.svg);
-    vertical-align: -10px;
-    margin-right: 10px;
-}
-
-#logo a:hover {
-    background-position: 0% 90%;
+    flex: 1;
 }
 
 nav {
-    width: 45%;
+    width: 100%;
 }
 
 .nav {
-    list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    list-style-type: none;
 }
 
-.nav__item--active {
-    background-position: 0% 82%;
+.nav li a {
+    display: block;
+    padding: 15px 5px;
+}
+
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+
+.nav__item {
+    order: 2;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.active .nav__item {
+    display: block;
+}
+
+@media all and (min-width: 768px) {
+    #logo { flex: .6; }
+    .nav { flex-wrap: nowrap; }
+    .nav li a { display: inline; }
+
+    .nav__item {
+        display: inline;
+        width: auto;
+    }
+
+    .toggle { display: none; }
 }
 
 /* || HERO */
@@ -456,7 +482,7 @@ nav {
     border-radius: 15px;
 }
 
-/* Hat tip to https://morioh.com/p/8ed37dfd6b7d for the assistance */
+/* Hat tip to https://morioh.com/p/8ed37dfd6b7d for the blog post */
 summary {
     cursor: pointer;
     position: relative;
@@ -510,11 +536,6 @@ footer .inner {
 
 footer a {
     color: var(--white);
-}
-
-footer a:hover,
-footer a:active {
-    background-image: linear-gradient(90deg, var(--brand-coral), var(--brand-coral));
 }
 
 .footer__nav {
