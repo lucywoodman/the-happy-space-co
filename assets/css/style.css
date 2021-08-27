@@ -260,21 +260,27 @@ a:active {
     background: var(--brand-mint);
 }
 
-@media (min-width: 768px) {
+#logo {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    flex: 1;
+}
+
+@media all and (min-width: 768px) {
     header,
     .hero {
         background: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--brand-mint) 60%, var(--brand-mint) 100%);
         width: 100%;
     }   
+
+    #logo {
+        font-size: 3.2rem;
+    }
 }
 
-#logo {
-    font-size: 3.2rem;
-    font-weight: var(--font-weight-bold);
-    flex: 1;
-}
-
-/* Hat tip to https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535 for the blog post on mobile navigation */
+/* Hat tip to 
+https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535 
+for the blog post on mobile navigation */
 nav {
     width: 100%;
 }
@@ -483,7 +489,9 @@ nav {
     border-radius: 15px;
 }
 
-/* Hat tip to https://morioh.com/p/8ed37dfd6b7d for the blog post on the details tag */
+/* Hat tip to 
+https://morioh.com/p/8ed37dfd6b7d 
+for the blog post on the details tag */
 summary {
     cursor: pointer;
     position: relative;
