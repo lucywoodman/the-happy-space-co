@@ -363,13 +363,18 @@ nav {
     margin-bottom: var(--spacing-sm);
     list-style-type: none;
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
 .perks__item {
     width: var(--width-sm);
 }
+
+
+
 
 /* || TESTIMONIALS */
 .testimonials {
