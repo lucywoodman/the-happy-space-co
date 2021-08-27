@@ -295,6 +295,13 @@ for the blog post */
     width: 70px;
     height: 2px;
     background: var(--text-color);
+    margin: 0 auto;
+}
+
+@media all and (min-width: 1024px) {
+    .break:after {
+        margin: 0;
+    }    
 }
 
 /* || HEADER and NAVIGATION */
@@ -545,6 +552,7 @@ nav {
 
 .faq__title {
     width: var(--width-md);
+    text-align: center;
 }
 
 .faq__title .title {
