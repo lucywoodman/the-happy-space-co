@@ -373,36 +373,41 @@ nav {
     width: var(--width-sm);
 }
 
-
-
-
 /* || TESTIMONIALS */
 .testimonials {
     margin-top: -70px;
     width: 100%;
 }
 
-.testimonials .inner {
+.testimonials blockquote {
+    display: flex;
     flex-direction: column;
 }
 
-.testimonials blockquote {
-    display: flex;
-    align-items: center;
-}
+@media (min-width: 768px) {
+    .testimonials .inner {
+        flex-direction: column;
+    }
+    
+    .testimonials blockquote {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-.testimonials .inner > blockquote:first-child {
-    align-self: flex-start;
-    margin-bottom: var(--spacing-sm);
-}
+    .testimonials .inner > blockquote:first-child {
+        align-self: flex-start;
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .testimonials .inner > blockquote:last-child {
+        align-self: flex-end;
+        flex-direction: row-reverse;
+    }
 
-.testimonials .inner > blockquote:last-child {
-    align-self: flex-end;
-    flex-direction: row-reverse;
-}
-
-.testimonials blockquote p {
-    margin: 0 var(--spacing-md);
+    .testimonials blockquote p {
+        margin: 0 var(--spacing-md);
+    }
 }
 
 /* || FAQ */
