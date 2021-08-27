@@ -380,13 +380,15 @@ nav {
 
 .hero__right blockquote {
     max-width: var(--width-lg);
-    margin-top: -5rem;
     display: flex;
     background: var(--white);
     border-radius: 15px;
     z-index: 1;
     box-shadow: var(--shadow-lg);
     padding: var(--spacing-sm);
+    position: relative;
+    top: -5rem;
+    right: 7rem;
 }
 
 .hero__right blockquote p {
@@ -399,7 +401,8 @@ nav {
     }
 
     .hero__left {
-        width: var(--width-lg);
+        width: auto;
+        display: initial;
         text-align: left;
     }
 
@@ -414,11 +417,9 @@ nav {
 
     .hero__right {
         display: flex;
-        width: 73rem;
-    }
-
-    .hero__right .img--xlg {
-        align-self: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 70rem;
     }
 }
 
