@@ -4,7 +4,7 @@
 /* || GLOBAL STYLING */
 :root {
     /* Set root font size to 10px */
-    font-size: 62.5%;
+    font-size: 50%;
 
     /* || Fonts */
     --font-head: 'Playfair Display', serif;
@@ -53,6 +53,12 @@
     --spacing-lg: 12rem;
     --spacing-md: 6rem;
     --spacing-sm: 3rem;
+}
+
+@media all and (min-width: 768px) {
+    :root {
+        font-size: 62.5%;    
+    }       
 }
 
 * {
@@ -261,7 +267,7 @@ a:active {
 }
 
 #logo {
-    font-size: var(--font-size-lg);
+    font-size: 3.2rem;
     font-weight: var(--font-weight-bold);
     flex: 1;
 }
@@ -271,10 +277,6 @@ a:active {
     .hero {
         background: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--brand-mint) 60%, var(--brand-mint) 100%);
         width: 100%;
-    }   
-
-    #logo {
-        font-size: 3.2rem;
     }
 }
 
