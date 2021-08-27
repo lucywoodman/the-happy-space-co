@@ -527,7 +527,7 @@ nav {
     width: var(--width-md);
 }
 
-.faq__title h2 {
+.faq__title .title {
     margin-bottom: var(--spacing-sm);
 }
 
@@ -594,6 +594,10 @@ details > summary {
     color: var(--white);
     padding-top: var(--spacing-lg);
     padding-bottom: var(--spacing-lg);
+}
+
+.call-to-action .title {
+    text-align: center;
 }
 
 .call-to-action .inner {
