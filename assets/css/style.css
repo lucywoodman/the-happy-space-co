@@ -88,6 +88,14 @@ body {
     flex-direction: column;
 }
 
+.features,
+.faq {
+    padding-top: var(--spacing-lg);
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
+    padding-bottom: var(--spacing-lg);
+}
+
 @media (min-width: 1024px) {
     .inner,
     .copyright {
@@ -429,10 +437,6 @@ nav {
     margin-top: -30px;
     background: var(--brand-pink);
     color: var(--text-color);
-    padding-top: var(--spacing-lg);
-    padding-bottom: var(--spacing-lg);
-    border-radius: 15px;
-    box-shadow: var(--shadow-md);
 }
 
 .perks {
@@ -512,10 +516,6 @@ nav {
 /* || FAQ */
 .faq {
     background: var(--brand-mint);
-    padding-top: var(--spacing-lg);
-    border-radius: 15px;
-    box-shadow: var(--shadow-md);
-    padding-bottom: var(--spacing-lg);
 }
 
 .faq .inner {
@@ -589,6 +589,7 @@ details > summary {
 
 /* || CALL TO ACTION */
 .call-to-action {
+    margin-top: -30px;
     background: var(--brand-green);
     color: var(--white);
     padding-top: var(--spacing-lg);
