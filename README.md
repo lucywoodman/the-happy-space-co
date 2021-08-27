@@ -1,10 +1,12 @@
 # The Happy Space Co.
 
+_This document is a work in progress_
+
 [Live webpage](https://lucywoodman.github.io/the-happy-space-co/)
 
 ![Mockup image](docs/mockup.png)
 
-## Table of content
+## Table of contents
 
 1. [Project goals](#project-goals)
 2. [User experience](#user-experience)
@@ -17,7 +19,6 @@ The business goals of The Happy Co-Space
 - Increase revenue from returning visitors making long-term bookings.
 - Increase awareness of the venue as _the_ place to go for coworking.
 - Provide a great user experience that visitors want to promote and share on social media.
-- (Provide networking and working opportunities to boost local communities.) subgoal
 
 The user goals
 
@@ -98,6 +99,7 @@ The page consists of X pages and X features.
 
 - HTML5
 - CSS3
+- JS
 
 ### Frameworks, libraries and other tools
 
@@ -211,7 +213,7 @@ You can clone the repository by following these steps:
 
 ### Media
 
-Unsplash was used for all imagery throughout the site. The license if copyright-free.
+Unsplash was used for all imagery throughout the site. The license is copyright-free.
 In order of apearance:
 
 - Image description - [Unsplash link]
