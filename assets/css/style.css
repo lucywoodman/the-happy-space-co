@@ -194,10 +194,10 @@ a:active {
 }
 
 .button:hover {
-    background: var(--brand-green);
+    background: var(--brand-mint);
     box-shadow: var(--shadow-md);
     text-decoration: none;
-    color: var(--white);
+    color: var(--brand-green);
 }
 
 .trustpilot a:hover,
