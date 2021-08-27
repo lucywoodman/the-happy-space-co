@@ -409,6 +409,10 @@ nav {
     margin-right: var(--spacing-sm);
 }
 
+.hero__cta a:hover {
+    background: var(--white);
+}
+
 .hero__right {
     padding-top: var(--spacing-sm);
     display: none;
@@ -445,6 +449,10 @@ nav {
     .hero__cta {
         justify-content: flex-start;
         width: var(--width-md);
+    }
+
+    .hero__cta a:hover {
+        background: var(--brand-mint);
     }
 
     .trustpilot {
