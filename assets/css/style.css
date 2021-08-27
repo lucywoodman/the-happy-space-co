@@ -440,12 +440,27 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 }
 
 .perks__item {
-    width: var(--width-sm);
+    text-align: center;
+}
+
+.perks__item p {
+    padding: 0 2rem;
+}
+
+@media all and (min-width: 1024px) {
+    .perks {
+        justify-content: space-between;
+    }
+
+    .perks__item p {
+        max-width: var(--width-sm);
+        padding-right: 1rem;
+    }
 }
 
 /* || TESTIMONIALS */
