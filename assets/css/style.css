@@ -270,7 +270,7 @@ a:active {
 
 /* || HEADER and NAVIGATION */
 .hero {
-    background: linear-gradient(hsla(165, 86%, 86%, 0.6), hsla(165, 86%, 86%, 1)),
+    background: linear-gradient(hsla(0, 100%, 99%, 0.6), hsla(0, 100%, 99%, 1)),
     url("../images/hero__main.png") center / cover no-repeat;
 }
 
