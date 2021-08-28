@@ -1009,3 +1009,14 @@ textarea {
     justify-content: space-between;
     padding: var(--spacing-md) 0;
 }
+
+.contact-details a {
+    padding: 1rem 0;
+}
+
+.contact-details a:hover {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid var(--brand-pink);
+    border-radius: 0;
+}
