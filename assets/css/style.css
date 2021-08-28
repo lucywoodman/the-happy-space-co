@@ -776,8 +776,7 @@ footer a {
     box-shadow: var(--shadow-md);
 }
 
-.pricing .inner,
-.gallery .inner {
+.pricing .inner {
     flex-direction: column;
 }
 
@@ -865,6 +864,10 @@ footer a {
 /* || GALLERY PAGE */
 .gallery {
     padding-bottom: var(--spacing-md);
+}
+
+.gallery .inner {
+    display: block;
 }
 
 .gallery .inner > img {
