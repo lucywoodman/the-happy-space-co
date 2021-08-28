@@ -372,6 +372,10 @@ nav {
     display: none;
 }
 
+.nav__item--active a {
+    color: var(--brand-coral);
+}
+
 .active .nav__item {
     display: block;
 }
