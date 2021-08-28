@@ -762,6 +762,10 @@ footer a {
     justify-content: center;
 }
 
+.page-title {
+    text-align: center;
+}
+
 .pricing {
     background: var(--brand-mint);
     border-radius: 15px;
@@ -769,17 +773,16 @@ footer a {
     box-shadow: var(--shadow-md);
 }
 
-.page-title {
-    text-align: center;
+.pricing .inner {
+    flex-direction: column;
 }
 
 .price-card {
     background: var(--white);
-    margin-top: -60px;
     box-shadow: var(--shadow-md);
     border-radius: 15px;
     padding: var(--spacing-sm) var(--spacing-sm);
-    width: 33%;
+    width: 100%;
     border: 1px solid transparent;
 }
 
@@ -788,18 +791,13 @@ footer a {
     border: 1px solid var(--brand-pink);
 }
 
-.pricing .inner > div:nth-child(1),
-.pricing .inner > div:nth-child(2) {
-    margin-right: var(--spacing-sm);
-}
-
-.price-card h2,
-.price-text {
-    padding-bottom: var(--spacing-sm);
+.price-card .break:after {
+    display: none;
 }
 
 .price-text {
     line-height: var(--line-height-xsm);
+    padding-bottom: var(--spacing-sm);
 }
 
 .price-card__list {
@@ -811,4 +809,28 @@ footer a {
 .price-card__li i {
     color: var(--brand-coral);
     margin-right: 10px;
+}
+
+@media all and (min-width: 1024px) {
+    .pricing .inner {
+        flex-direction: row;
+    }
+
+    .pricing .inner > div:nth-child(1),
+    .pricing .inner > div:nth-child(2) {
+        margin-right: var(--spacing-sm);
+    }   
+
+    .price-card {
+        margin-top: -60px;
+        width: 33%;
+    }
+
+    .price-card .break {
+        display: block;
+    }
+
+    .price-card h2 {
+        padding-bottom: var(--spacing-sm);
+    }
 }
