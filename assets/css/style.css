@@ -702,6 +702,10 @@ details > summary {
     list-style-type: none;
 }
 
+details summary::-webkit-details-marker {
+    display: none;
+}
+
 /* || CALL TO ACTION */
 .call-to-action {
     margin-top: -30px;
