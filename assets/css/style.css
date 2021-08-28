@@ -652,7 +652,8 @@ footer .inner {
     align-items: center;
 }
 
-footer .inner > * {
+footer .inner > ul,
+footer .inner > address {
     text-align: center;
     margin-bottom: var(--spacing-md);
 }
