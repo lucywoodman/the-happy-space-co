@@ -757,8 +757,13 @@ footer a {
 .hero--simple {
     padding-bottom: var(--spacing-xlg); 
 }
+
 .hero--simple .inner {
     justify-content: center;
+}
+
+.pricing {
+    background: var(--brand-mint);
 }
 
 .page-title {
@@ -766,6 +771,8 @@ footer a {
 }
 
 .price-card {
+    background: var(--white);
+    margin-top: -60px;
     box-shadow: var(--shadow-md);
     border-radius: 15px;
     padding: var(--spacing-sm) var(--spacing-md);
