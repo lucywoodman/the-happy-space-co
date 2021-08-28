@@ -1029,7 +1029,7 @@ textarea {
 }
 
 .contact-details p {
-    margin: 3rem;
+    margin: 3rem auto;
 }
 
 .contact-details a {
