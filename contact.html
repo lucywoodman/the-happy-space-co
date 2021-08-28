@@ -70,12 +70,16 @@
                 <label for="message">Any other questions/details?</label>
                 <input type="text" id="message" name="message" class="text-input">
                 <p>How do you prefer to be contacted?</p>
-                <div>
-                    <label for="contact-pref2">Email</label>
-                    <input type="radio" id="contact-pref2" name="contact-pref" class="radio-input" value="email"
-                        checked>
-                    <label for="contact-pref1">Phone</label>
-                    <input type="radio" id="contact-pref1" name="contact-pref" class="radio-input" value="phone">
+                <div class="radio-field">
+                    <label for="contact-pref2">
+                        <input type="radio" id="contact-pref2" name="contact-pref" class="radio-input" value="email"
+                            checked>
+                        <span>Email</span>
+                    </label>
+                    <label for="contact-pref1">
+                        <input type="radio" id="contact-pref1" name="contact-pref" class="radio-input" value="phone">
+                        <span>Phone</span>
+                    </label>
                 </div>
                 <input type="submit" value="Send" class="button">
             </form>

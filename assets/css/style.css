@@ -931,6 +931,38 @@ label {
     flex-grow: 1;
 }
 
-.half-field > div:first-child {
+.half-field > div:first-child,
+.radio-field > label:first-child {
     margin-right: var(--spacing-sm);
+}
+
+.radio-field {
+    display: flex;
+    margin-bottom: var(--spacing-sm);
+}
+
+.radio-field label {
+    display: inline-flex;
+    border-radius: 15px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin: 8px 0;
+}
+
+.radio-field label:hover {
+    background: var(--brand-pink);
+}
+
+.radio-field input {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.radio-field span {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 8px;
 }
