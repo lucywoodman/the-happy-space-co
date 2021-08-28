@@ -921,6 +921,7 @@ textarea {
     border: 1px solid #ebebeb;
     color: #999CA0;
     font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
     background: var(--white);
     width: 100%;
     height: 60px;
