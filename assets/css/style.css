@@ -1029,6 +1029,11 @@ textarea {
 
 .contact-details {
     padding: var(--spacing-md) 0;
+    text-align: center;
+}
+
+.contact-details p {
+    margin: 3rem;
 }
 
 .contact-details a {
@@ -1040,6 +1045,11 @@ textarea {
     box-shadow: none;
     border-bottom: 1px solid var(--brand-pink);
     border-radius: 0;
+}
+
+.contact-details .social__icons {
+    justify-content: space-evenly;
+    padding-top: var(--spacing-sm);
 }
 
 .footer--light {
