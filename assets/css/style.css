@@ -425,14 +425,14 @@ nav {
     align-items: center;
     width: 100%;
     margin-top: var(--spacing-md);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
 }
 
-.hero__cta a {
-    margin-right: var(--spacing-sm);
+.hero__cta .button {
+    margin-right: var(--spacing-md);
 }
 
-.hero__cta a:hover {
+.hero__cta .button:hover {
     background: var(--white);
 }
 
@@ -471,11 +471,11 @@ nav {
 
     .hero__cta {
         justify-content: flex-start;
-        width: var(--width-md);
     }
 
-    .hero__cta a:hover {
+    .hero__cta .button:hover {
         background: var(--brand-mint);
+        color: var(--brand-green);
     }
 
     .trustpilot {
