@@ -910,11 +910,13 @@ footer a {
 }
 
 input, 
-label {
+label,
+textarea {
     display: inline-block;
 }
 
-.text-input {
+.text-input,
+.textarea {
     border-radius: 8px;
     border: 1px solid #ebebeb;
     color: #999CA0;
@@ -924,6 +926,10 @@ label {
     height: 60px;
     padding: 12px 16px;
     margin: 5px 0 var(--spacing-sm) 0;
+}
+
+.textarea {
+    height: 120px;
 }
 
 .half-field {
