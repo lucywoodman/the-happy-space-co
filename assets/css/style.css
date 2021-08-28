@@ -901,6 +901,10 @@ footer a {
     margin-top: -60px;
 }
 
+.contact .inner {
+    align-items: flex-start;
+}
+
 .contact-form {
     max-width: var(--width-lg);
     font-size: var(--font-size-sm);
@@ -976,4 +980,9 @@ textarea {
     display: inline-block;
     line-height: 20px;
     padding: 0 8px;
+}
+
+.map iframe {
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
 }
