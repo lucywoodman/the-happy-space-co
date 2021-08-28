@@ -221,12 +221,13 @@ a:hover {
     background-size: 100% 12px;
     background-position: 0% 85%;
     transition: all .5s ease-in-out;
+    border-radius: 15px;
 }
 
 .h1--underline:hover {
+    padding: 10px 20px;
     background-image: none;
     animation: rainbow 3s ease infinite alternate;
-    border-radius: 15px;
 }
 
 @keyframes rainbow {
