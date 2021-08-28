@@ -736,6 +736,17 @@ footer a {
     color: var(--white);
 }
 
+footer .inner a {
+    padding: 1rem 0;
+}
+
+footer .inner a:hover {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid var(--brand-pink);
+    border-radius: 0;
+}
+
 .footer__nav {
     list-style-type: none;
 }
