@@ -487,7 +487,8 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        width: 70rem;
+        max-width: 70rem;
+        padding-left: var(--spacing-xlg);
     }
 }
 
