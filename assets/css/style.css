@@ -778,7 +778,8 @@ footer a {
     margin-top: -60px;
     box-shadow: var(--shadow-md);
     border-radius: 15px;
-    padding: var(--spacing-sm) var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-sm);
+    width: 33%;
 }
 
 .pricing .inner > div:nth-child(1),
