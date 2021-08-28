@@ -215,11 +215,30 @@ a:hover {
 
 /* || Special text classes */
 .h1--underline {
-    display: inline;
+    display: inline-block;
     background-image: linear-gradient(90deg, var(--brand-pink), var(--brand-pink));
     background-repeat: no-repeat;
     background-size: 100% 12px;
     background-position: 0% 85%;
+    transition: all .5s ease-in-out;
+}
+
+.h1--underline:hover {
+    background-image: none;
+    animation: rainbow 3s ease infinite alternate;
+    border-radius: 15px;
+}
+
+@keyframes rainbow {
+    0%, 100% {
+        background: var(--brand-mint);
+    }
+    25%, 75% {
+        background: var(--brand-pink);
+    }
+    50% {
+        background: var(--brand-coral);
+    }
 }
 
 .text--lg { 
