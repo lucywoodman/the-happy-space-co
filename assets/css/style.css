@@ -895,6 +895,9 @@ footer a {
 /* || CONTACT PAGE */
 .contact {
     background: var(--brand-mint);
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
+    padding: var(--spacing-md) 0 var(--spacing-md) 0;
 }
 
 .contact-form {
