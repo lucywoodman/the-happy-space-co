@@ -601,7 +601,7 @@ nav {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    width: 100%;
+    width: 80%;
 }
 
 .faq__item {
@@ -609,6 +609,10 @@ nav {
     margin-bottom: var(--spacing-sm);
     padding: 1.4rem 3rem;
     border-radius: 15px;
+}
+
+.faq__item p {
+    max-width: 100%;
 }
 
 @media all and (min-width: 1024px) {
