@@ -798,6 +798,7 @@ footer a {
 .price-card__list {
     list-style-type: none;
     margin: var(--spacing-md) 0 var(--spacing-sm);
+    font-size: var(--font-size-sm);
 }
 
 .price-card__li i {
