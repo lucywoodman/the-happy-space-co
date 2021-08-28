@@ -781,6 +781,11 @@ footer a {
     padding: var(--spacing-sm) var(--spacing-md);
 }
 
+.pricing .inner > div:nth-child(1),
+.pricing .inner > div:nth-child(2) {
+    margin-right: var(--spacing-sm);
+}
+
 .price-card h2,
 .price-text {
     padding-bottom: var(--spacing-sm);
