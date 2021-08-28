@@ -956,6 +956,14 @@ textarea {
     height: 120px;
 }
 
+.contact .button {
+    padding: 1.6rem 3rem 1.6rem;
+}
+
+.contact .button:hover {
+    background: var(--white);
+}
+
 .half-field {
     display: flex;
 }
