@@ -831,6 +831,7 @@ footer a {
 @media all and (min-width: 1024px) {
     .pricing .inner {
         flex-direction: row;
+        align-items: flex-start;
     }
 
     .pricing .inner > div:nth-child(1),
