@@ -986,3 +986,9 @@ textarea {
     border-radius: 15px;
     box-shadow: var(--shadow-md);
 }
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-md) 0;
+}
