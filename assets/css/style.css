@@ -754,6 +754,12 @@ footer a {
     footer .inner {
         align-items: flex-start;
     }
+
+    footer .inner > ul, 
+    footer .inner > address {
+        text-align: left;
+        margin-bottom: 0;
+    }
 }
 
 /* || PRICING PAGE */
