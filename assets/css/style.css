@@ -702,7 +702,7 @@ details > summary {
     list-style-type: none;
 }
 
-details summary::-webkit-details-marker {
+summary::-webkit-details-marker {
     display: none;
 }
 
