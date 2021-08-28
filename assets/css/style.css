@@ -310,12 +310,6 @@ for the blog post */
     url("../images/hero__main.png") center / cover no-repeat;
 }
 
-#logo {
-    font-size: 3.2rem;
-    font-weight: var(--font-weight-bold);
-    flex: 1;
-}
-
 @media all and (min-width: 1024px) {
     header,
     .hero {
@@ -339,7 +333,18 @@ nav {
     list-style-type: none;
 }
 
-.nav li a {
+#logo {
+    font-size: 3.2rem;
+    font-weight: var(--font-weight-bold);
+    justify-self: flex-start;
+    flex-grow: 1;
+}
+
+#logo a {
+    padding-left: 0;
+}
+
+.nav__item a {
     display: block;
     padding: 15px 5px;
 }
@@ -366,17 +371,14 @@ nav {
 }
 
 @media all and (min-width: 1024px) {
-    #logo { 
-        flex: .6; 
-    }
-    
     .nav { 
         flex-wrap: nowrap; 
     }
 
-    .nav li a { 
+    .nav__item a { 
         display: inline;
         padding: 1rem 2rem 1.2rem;
+        margin: 0 1rem;
     }
 
     .nav__item {
@@ -384,7 +386,9 @@ nav {
         width: auto;
     }
 
-    .toggle { display: none; }
+    .toggle { 
+        display: none; 
+    }
 }
 
 /* || HERO */
