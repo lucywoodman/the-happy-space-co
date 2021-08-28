@@ -868,9 +868,13 @@ footer a {
 
 .gallery .inner {
     display: block;
+    column-count: 3;
+    column-gap: 1rem;
 }
 
 .gallery .inner > img {
+    width: 100%;
+    height: auto;
     border-radius: 15px;
     box-shadow: var(--shadow-md);
 }
