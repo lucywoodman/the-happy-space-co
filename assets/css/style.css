@@ -791,3 +791,8 @@ footer a {
     list-style-type: none;
     margin: var(--spacing-md) 0 var(--spacing-sm);
 }
+
+.price-card__li i {
+    color: var(--brand-coral);
+    margin-right: 10px;
+}
