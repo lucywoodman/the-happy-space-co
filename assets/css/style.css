@@ -777,6 +777,10 @@ footer a {
     flex-direction: column;
 }
 
+.pricing .inner > div:first-child {
+    margin-top: -60px;
+}
+
 .price-card {
     background: var(--white);
     box-shadow: var(--shadow-md);
@@ -835,7 +839,7 @@ footer a {
     }   
 
     .price-card {
-        display: block;
+        flex-direction: column;
         margin-top: -60px;
         width: 33%;
     }
