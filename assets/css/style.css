@@ -928,7 +928,7 @@ footer .inner a:hover {
 }
 
 .contact-form {
-    max-width: var(--width-lg);
+    max-width: var(--width-xlg);
     font-size: var(--font-size-sm);
 }
 
