@@ -336,7 +336,6 @@ nav {
 #logo {
     font-size: 3.2rem;
     font-weight: var(--font-weight-bold);
-    justify-self: flex-start;
     flex-grow: 1;
 }
 
