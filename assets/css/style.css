@@ -869,8 +869,7 @@ footer a {
 
 .gallery .inner {
     display: block;
-    column-count: 3;
-    column-gap: 1rem;
+    column-count: 1;
 }
 
 .gallery .inner > img {
@@ -878,4 +877,17 @@ footer a {
     height: auto;
     border-radius: 15px;
     box-shadow: var(--shadow-md);
+}
+
+@media all and (min-width: 800px) {
+    .gallery .inner {
+        column-count: 2;
+        column-gap: 1rem;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .gallery .inner {
+        column-count: 3;
+    }
 }
