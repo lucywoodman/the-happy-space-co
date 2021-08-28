@@ -784,6 +784,8 @@ footer a {
     padding: var(--spacing-sm) var(--spacing-sm);
     width: 100%;
     border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
 }
 
 .price-card:hover {
@@ -811,6 +813,16 @@ footer a {
     margin-right: 10px;
 }
 
+@media all and (min-width: 800px) {
+    .price-card {
+        flex-direction: row;
+    }
+
+    .price-card__left {
+        padding: 0 var(--spacing-md) var(--spacing-md) 0;
+    }
+}
+
 @media all and (min-width: 1024px) {
     .pricing .inner {
         flex-direction: row;
@@ -822,11 +834,16 @@ footer a {
     }   
 
     .price-card {
+        display: block;
         margin-top: -60px;
         width: 33%;
     }
 
-    .price-card .break {
+    .price-card__left {
+        padding: 0;
+    }
+
+    .price-card .break:after {
         display: block;
     }
 
