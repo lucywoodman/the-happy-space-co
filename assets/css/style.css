@@ -780,6 +780,12 @@ footer a {
     border-radius: 15px;
     padding: var(--spacing-sm) var(--spacing-sm);
     width: 33%;
+    border: 1px solid transparent;
+}
+
+.price-card:hover {
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--brand-pink);
 }
 
 .pricing .inner > div:nth-child(1),
