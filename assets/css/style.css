@@ -752,3 +752,15 @@ footer a {
         align-items: flex-start;
     }
 }
+
+/* || PRICING PAGE */
+.hero--simple {
+    padding-bottom: var(--spacing-xlg); 
+}
+.hero--simple .inner {
+    justify-content: center;
+}
+
+.page-title {
+    text-align: center;
+}
