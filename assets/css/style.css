@@ -764,3 +764,18 @@ footer a {
 .page-title {
     text-align: center;
 }
+
+.price-card {
+    box-shadow: var(--shadow-md);
+    border-radius: 15px;
+    padding: 3rem 2rem;
+}
+
+.price-card h2,
+.price-text {
+    padding-bottom: var(--spacing-sm);
+}
+
+.price-text {
+    line-height: var(--line-height-xsm);
+}
