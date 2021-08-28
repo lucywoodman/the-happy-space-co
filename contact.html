@@ -45,17 +45,34 @@
     </section>
     <section class="contact">
         <div class="inner">
-            <form action="" class="contact-form">
-                FIRST NAME
-                LAST NAME
-                EMAIL ADDRESS
-                PHONE NUMBER
-                DAY
-                TIME
-                DURATION
-                MESSAGE
-                RADIOS
-                SUBMIT BUTTON
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
+                <label for="fname">Your first name*</label>
+                <input type="text" id="fname" name="first_name" required class="text-input">
+                <label for="lname">Your last name*</label>
+                <input type="text" id="lname" name="last_name" required class="text-input">
+                <label for="email">Your email address*</label>
+                <input type="email" id="email" name="email_address" required class="text-input">
+                <label for="number">Your phone number</label>
+                <input type="tel" id="number" name="phone_number" class="text-input">
+                <label for="session-date">Which day would you like to book?</label>
+                <input type="date" id="session-date" name="session_date" class="text-input">
+                <label for="session-time">Which time?</label>
+                <input type="time" id="session-time" name="session_time" class="text-input">
+                <label for="duration">How long would you like to stay for?</label>
+                <select name="duration" id="duration" class="dropdown">
+                    <option value="1hr">1 hour (free)</option>
+                    <option value="halfday">Half day (8am - 1pm)</option>
+                    <option value="halfday">Half day (2pm - 6pm)</option>
+                    <option value="fullday">Full day (8am - 6pm)</option>
+                </select>
+                <label for="message">Any other questions/details</label>
+                <input type="text" id="message" name="message" class="text-input">
+                <p>How do you prefer to be contacted?</p>
+                <label for="contact-pref2">Email</label>
+                <input type="radio" id="contact-pref2" name="contact-pref" class="radio-input" value="email" checked>
+                <label for="contact-pref1">Phone</label>
+                <input type="radio" id="contact-pref1" name="contact-pref" class="radio-input" value="phone">
+                <input type="submit" value="Send" class="button">
             </form>
             <div class="contact--right">
                 MAP GOES HERE
