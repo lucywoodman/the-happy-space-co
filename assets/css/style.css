@@ -175,12 +175,18 @@ a {
     color: var(--brand-green);
     text-decoration: none;
     transition: all .5s ease-out;
+    padding: 1rem 2rem;
 }
 
 a:hover,
 a:active {
     color: var(--brand-coral);
-    text-decoration: underline;
+    background: var(--brand-pink);
+    border-radius: 15px;
+}
+
+a:hover {
+    box-shadow: var(--shadow-md);
 }
 
 .button {
@@ -348,10 +354,10 @@ nav {
     padding: 15px 5px;
 }
 
-.nav__item a:hover {
+/* .nav__item a:hover {
     background: var(--brand-pink);
     border-radius: 15px;
-}
+} */
 
 .toggle {
     order: 1;
