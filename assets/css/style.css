@@ -864,6 +864,7 @@ footer a {
 /* || GALLERY PAGE */
 .gallery {
     padding-bottom: var(--spacing-md);
+    margin-top: -60px;
 }
 
 .gallery .inner {
