@@ -1004,9 +1004,26 @@ textarea {
     padding: 0 8px;
 }
 
-.map iframe {
+.contact--right {
+    padding-left: var(--spacing-sm);
+}
+
+.map {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
     border-radius: 15px;
     box-shadow: var(--shadow-md);
+}
+
+.map--google {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
 .contact-details {
