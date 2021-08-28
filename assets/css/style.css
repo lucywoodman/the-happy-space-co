@@ -337,7 +337,7 @@ for the blog post */
 }
 
 @media all and (min-width: 1024px) {
-    header,
+    header.home,
     .hero {
         background: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--brand-mint) 60%, var(--brand-mint) 100%);
         width: 100%;
