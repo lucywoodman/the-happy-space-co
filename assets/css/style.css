@@ -914,7 +914,7 @@ footer .inner a:hover {
     background: var(--brand-mint);
     border-radius: 15px;
     box-shadow: var(--shadow-md);
-    padding: var(--spacing-md) 0 var(--spacing-md) 0;
+    padding: var(--spacing-sm) 0 var(--spacing-lg) 0;
     margin-top: -60px;
 }
 
@@ -1019,4 +1019,13 @@ textarea {
     box-shadow: none;
     border-bottom: 1px solid var(--brand-pink);
     border-radius: 0;
+}
+
+.footer--light {
+    background: var(--brand-mint);
+    color: var(--brand-green);
+}
+
+.footer--light .copyright {
+    padding-top: 0;
 }
