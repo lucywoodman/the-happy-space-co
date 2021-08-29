@@ -31,6 +31,7 @@
     /* || Colours */
     --brand-pink: hsl(8, 100%, 94%);
     --brand-coral: hsl(4, 75%, 76%);
+    --brand-clay: hsl(3, 34%, 52%);
     --brand-green: hsl(140, 93%, 12%);
     --brand-mint: hsl(165, 86%, 86%);
     --text-color: hsl(0, 0%, 7%);
@@ -148,7 +149,7 @@ blockquote {
 cite {
     font-size: var(--font-size-sm);
     font-style: normal;
-    color: var(--brand-coral);
+    color: var(--brand-clay);
 }
 
 address { 
@@ -197,7 +198,7 @@ a:hover {
     background: var(--brand-coral);
     cursor: pointer;
     transition: all .5s ease-out;
-    color: var(--white);
+    color: var(--brand-green);
 }
 
 .button:hover {
@@ -686,14 +687,14 @@ summary {
 
 details > summary:before {
     position: absolute;
-    color: var(--brand-coral);
+    color: var(--brand-clay);
     content: "+";
     left: 5px;
 }
 
 details[open] > summary:before {
     position: absolute;
-    color: var(--brand-coral);
+    color: var(--brand-clay);
     content: "-";
     left: 5px;
 }
