@@ -127,7 +127,8 @@ h2 {
     font-size: 5.05rem; 
 }
 
-h3 { 
+h3,
+.h3 { 
     font-size: 3.79rem; 
 }
 
@@ -557,6 +558,7 @@ nav {
 
 .perks__item {
     text-align: center;
+    margin: 0 auto;
 }
 
 .perks__item p {
@@ -564,13 +566,8 @@ nav {
 }
 
 @media all and (min-width: 1024px) {
-    .perks {
-        justify-content: space-between;
-    }
-
     .perks__item p {
         max-width: var(--width-sm);
-        padding-right: 1rem;
     }
 }
 
