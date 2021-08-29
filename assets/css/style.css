@@ -566,12 +566,12 @@ nav {
     margin: 0 auto;
 }
 
-.perks__item p {
+.perks__item .subheader {
     padding: 0 2rem;
 }
 
 @media all and (min-width: 1024px) {
-    .perks__item p {
+    .perks__item .subheader {
         max-width: var(--width-sm);
     }
 }
