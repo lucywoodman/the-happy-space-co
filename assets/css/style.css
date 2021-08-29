@@ -132,7 +132,8 @@ h3,
     font-size: 3.79rem; 
 }
 
-h4 {
+h4,
+.h4 {
     font-size: 2.84rem;
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-lg);
@@ -140,6 +141,9 @@ h4 {
 
 p,
 .subheader {
+    font-family: var(--font-body);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-reg);
     max-width: var(--width-lg);
     margin: 3rem 0;
 }
@@ -720,6 +724,10 @@ summary::-webkit-details-marker {
 
 .call-to-action .h1--underline {
     background-image: linear-gradient(90deg, hsl(4, 75%, 76%), hsl(4, 75%, 76%));
+}
+
+.call-to-action .button {
+    margin-top: var(--spacing-sm);
 }
 
 /* || FOOTER */
