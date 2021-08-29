@@ -4,7 +4,7 @@ _This document is a work in progress_
 
 [Live webpage](https://lucywoodman.github.io/the-happy-space-co/)
 
-![Mockup image](docs/mockup.png)
+![Mockup image](docs/mockup.jpg)
 
 ## Table of contents
 
