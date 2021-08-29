@@ -2,6 +2,10 @@
 
 _This document is a work in progress_
 
+An inviting coworking space in the town center of Eastbourne. With modern facilities, cosy and relaxed decor and a cafe on site.
+
+Visitors can reserve desk space, offices or conference rooms on a short or longterm basis.
+
 [Live webpage](https://lucywoodman.github.io/the-happy-space-co/)
 
 ![Mockup image](docs/mockup.jpg)
@@ -10,81 +14,120 @@ _This document is a work in progress_
 
 1. [Project goals](#project-goals)
 2. [User experience](#user-experience)
+XXX
 
 ## Project goals
 
-The business goals of The Happy Co-Space
-
-- Increase revenue from new visitors making bookings.
-- Increase revenue from returning visitors making long-term bookings.
-- Increase awareness of the venue as _the_ place to go for coworking.
-- Provide a great user experience that visitors want to promote and share on social media.
-
 The user goals
 
-- Find a welcoming coworking space with modern facilities, such as fast internet, clean environment, and refreshments on site.
+- Find a welcoming coworking space with modern facilities.
+- Find information about the facilities and workspaces available.
 - Find the pricing and how to book.
 - Find the location and contact details for the venue.
 
+The business goals of The Happy Space Co.
+
+- Increase revenue from new and return visitors making reservations.
+- Increase awareness of the venue as the best place to go for coworking.
+- Provide essential information and photos of the venue to new and returning visitors.
+- Provide a way for visitors to contact the venue directly.
+
 ## User experience
-
-The site is designed and built with a mobile-first approach to be fully responsive and available on any device. This is to ensure that it's easily accessible while on the go.
-
-There is a simple navigation with concise links for the different pages of information. The information is well presented and visually appealing regardless of screen size.
-
-Colour contrast is chosen with accessibility in mind, keeping the site easy to read.
 
 ### Target audience
 
-- Entrepreneurs
-- Remote workers
-- Side-hustlers
-- Local business owners
+- Entrepreneurs, looking for a place to work from or hold meetings. With opportunities for networking and collaboration.
+- Remote workers, looking for a workspace alongside others for company, or as a venue for remote teams to come together.
+- Side-hustlers, looking for a workspace with access outside of business hours.
+- Local business owners, looking for networking or collaboration opportunities.
+
+### User requirements and expectations
+
+- A clear navigation that makes it easy to see what information is available on the site.
+- A design-led experience that's a delight to see and use.
+- A colour palette and typography that considers accessibility and readability.
+- Links and functions that work as expected.
+- Consistency across pages.
+- Fully responsive for viewing on any device.
 
 ### User stories
 
 #### First-time visitor
 
-1. I run a local business and want to work alongside others for networking. Do you have networking events?
-2. I run a local business and want to work alongside others for collaboration opportunities. Do you have open working areas?
-3. I run a business alongside my main job and want an evening/weekend office space. What hours are you open?
-4. I normally work alone and want to be alongside others for social reasons. Are there social areas?
-5. I work remotely and don’t have an adequate office space at home. Can I rent a personal office space?
-6. I work remotely and need a venue to run meetings and workshops. Do you have conference rooms with suitable facilities?
-7. I’m visiting this area and want somewhere close to the town centre to work from. Where are you located?
-8. I work remotely and I need an office space away from my noisy household. Do you have private and quiet offices?
-9. I work remotely and need a reliable internet connection. How good is your internet?
-10. I drink a lot of coffee when I’m working. Do you have coffee/tea on site? Are there toilets?
+1. I run a local business and want to work alongside others for networking or collaboration opportunities. Do you have open working areas?
+2. I run a business alongside my main job and want an evening/weekend office space. What hours are you open?
+3. I normally work alone from home but I miss people and want to be alongside others for social reasons. Are there social/common areas?
+4. I work remotely and don’t have an adequate office space at home. Can I rent a personal office space?
+5. I work remotely and need a venue to run meetings and workshops. Do you have conference rooms with suitable facilities?
+6. I’m visiting this area and want somewhere close to the town centre to work from. Where are you located?
+7. I work remotely and I need an office space away from my noisy household. Do you have private and quiet offices?
+8. I need a reliable internet connection for lots of video calls. How good is your internet?
+9. My job involves lots of in-person meetings. Can I have visitors?
 
 #### Returning visitor
 
-1. I come here often. Can I get a discount for paying up front?
+1. I plan to be a regular visitor! How do I make long-term bookings?
 2. I need to ask a question/have a request for the owners. How can I get in touch?
-3. I have a complaint. How do I contact you?
+3. I need a reminder of when I can visit. What are your opening hours?
 4. I had a great experience! Where can I leave a review?
-5. I’d like to change my booking. How do I do that?
-
-## Scope
-
-The scope of the project in its initial release is defined by the following features:
-
--
-
-## Features to be built in future releases:
+5. I can't remember your location. What's your address?
+6. I want to share your business with my friends/colleagues on social media. What are your social media accounts?
 
 ## Design
 
+Inspired by offices and coworking spaces I've used, as well as online interior design photos, I came up with the following keywords for the brand:
+
+ - Welcoming
+ - Modern
+ - Creative
+ - Classy
+
 ### Colours
+
+The site is designed using a modern, bright and clean palette (modern, creative), with a warm and elegant dark green (welcoming, classy) in the footer and text. This is to reflect how the venue would look, carrying the same feel from the website to the coworking space. New visitors would already have a positive emotional response from the design and expect the same from the venue.
+
+[XXX ADD PALETTE HERE]
 
 ### Fonts
 
+The classy font "Playfair Display" is used for the headers, and the modern "Lato" is used for almost everything else. I chose to use "Abril Fatface" for any digits on the site, as this matches the header font well but doesn't drop below the baseline like Playfair does. This makes it easier to read and keeps the space around the pricing even.
+
+[XXX ADD FONTS AND NUMERALS HERE]
+
 ### Imagery
+
+All of the photos were selected as complimentary to the design, as well as showing workspaces that fit the brand keywords. The colours within the photos reflect the branding, using dark greens (plants), oranges/pinks (furniture, wood) and whites.
+
+Simple and modern line illustrations are used for the main features of the coworking space, as a creative alternative to using further photos on the home page. The same simple line style is used for the logo and icons.
+
+[XXX ADD SOMETHING HERE]
+
+### Structure
+
+The website uses a well-known and well-experienced web design pattern, to provide a comforting and predictable experience to users. With the logo in the top left, navigation in the top right. Each page has a large "hero " section displaying the page title and each section is highlighted with a shift in background colour.
+
+The header and footer on each of the longer pages matches, allowing users to quickly find their way around. There's also a call-to-action above the footer to encourage users to get in touch or make a booking.
+
+The one page the does not entirely match is the contact page. As the user would already be contacting the venue or making a booking at this point, the call to action isn't required. As the page is quite short, the contact details are moved up from the footer into a more visible location and the footer links are removed.
 
 ### Wireframes
 
+<details><summary>Home page</summary>
+<img src="docs/wireframes/home__wireframe.png">
+</details>
+<details><summary>Pricing page</summary>
+<img src="docs/wireframes/pricing__wireframe.png">
+</details>
+<details><summary>Gallery page</summary>
+<img src="docs/wireframes/gallery__wireframe.png">
+</details>
+<details><summary>Contact page</summary>
+<img src="docs/wireframes/contact__wireframe.png">
+</details>
+
 ## Features
 
-The page consists of X pages and X features.
+The page consists of XXX pages and XXX features.
 
 ### 1. Feature
 
@@ -99,41 +142,50 @@ The page consists of X pages and X features.
 
 - HTML5
 - CSS3
-- JS
+- JavaScript (a tiny bit for the responsive navigation)
 
 ### Frameworks, libraries and other tools
 
 1. Git
 2. GitHub
-3. Figma
-4. Phosphoricons
-5. Google Fonts
-6. Unsplash
-7. Am I Responsive
-8. VSCode
+3. VSCode
+4. Figma
+5. Phosphoricons
+6. Google Fonts
+7. Unsplash
+8. Am I Responsive
 9. Google Maps
 
 ## Validation
 
 ### HTML validation
 
-The [W3C Markup Validation Service] was used to validate the HTML of the website. All pages pass with 0 errors and 0 warnings.
+The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages pass with 0 errors and 0 warnings.
 
-<details><summary>Home</summary>
-<img src="docs/validation/validation-html-index.jpg">
+<details><summary>Home page</summary>
+<img src="docs/validation/home__validation-html.png">
+</details>
+<details><summary>Pricing page</summary>
+<img src="docs/validation/pricing__validation-html.png">
+</details>
+<details><summary>Gallery page</summary>
+<img src="docs/validation/gallery__validation-html.png">
+</details>
+<details><summary>Contact page</summary>
+<img src="docs/validation/contact__validation-html.png">
 </details>
 
 ### CSS validation
 
-The [W3C Jigsaw CSS Validation Service] was used to validate the CSS of the website. The CSS passes with 0 errors and 0 warnings.
+The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. The CSS passes with 0 errors. There are some warnings due to using CSS variables (custom properties), which the validator does not support yet. See the [CSS Validator's GitHub](https://github.com/w3c/css-validator/pull/173#issuecomment-878349650) for more information.
 
 <details><summary>style.css</summary>
-<img src="docs/validation/validation-css-style.jpg">
+<img src="docs/validation/style__validation-css.png">
 </details>
 
 ### Accessibility
 
-The [WAVE WebAIM web accessibility evaluation tool] was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
 <details><summary>Home</summary>
 <img src="docs/validation/validation-accessibility-index.jpg">
