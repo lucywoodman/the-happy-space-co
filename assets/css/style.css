@@ -139,11 +139,7 @@ h4,
     line-height: var(--line-height-lg);
 }
 
-p,
-.subheader {
-    font-family: var(--font-body);
-    font-size: var(--font-size-md);
-    font-weight: var(--font-weight-reg);
+p {
     max-width: var(--width-lg);
     margin: 3rem 0;
 }
@@ -166,6 +162,15 @@ address {
 i {
     vertical-align: -.2em;
     margin-left: .5rem;
+}
+
+.subheader {
+    display: block;
+    font-family: var(--font-body);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-reg);
+    max-width: var(--width-lg);
+    margin: 3rem auto;
 }
 
 .trustpilot i {
@@ -840,7 +845,8 @@ footer .inner a:hover {
 
 .price-text {
     line-height: var(--line-height-xsm);
-    padding-bottom: var(--spacing-sm);
+    padding: var(--spacing-sm) 0;
+    display: block;
 }
 
 .price-card__list {
@@ -983,7 +989,7 @@ textarea {
     flex-grow: 1;
 }
 
-.half-field > div:first-child,
+.half-field > div:nth-child(2),
 .radio-field > label:first-child {
     margin-right: var(--spacing-sm);
 }

@@ -39,7 +39,7 @@
         <div class="inner">
             <div class="page-title">
                 <h1><span class="h1--underline">Contact</span> us</h1>
-                <p>Drop in and say hi, or send us a message below!</p>
+                <p>Drop in and say hi, make a booking or send us a message below!</p>
             </div>
         </div>
     </section>
@@ -54,8 +54,8 @@
                 <input type="tel" id="number" name="phone_number" class="text-input">
                 <label for="session-date">Which day would you like to book?</label>
                 <input type="date" id="session-date" name="session_date" class="text-input">
-                <p>Choose your start and finish times:</p>
-                <div class="half-field">
+                <fieldset class="half-field">
+                    <legend>Choose your start and finish times:</legend>
                     <div>
                         <label for="session-time-start">Start</label>
                         <input type="time" id="session-time-start" name="session_time_start" min="08:00" max="17:00"
@@ -66,11 +66,12 @@
                         <input type="time" id="session-time-end" name="session_time_end" min="09:00" max="18:00"
                             class="text-input">
                     </div>
-                </div>
+                </fieldset>
                 <label for="message">Any other questions/details?</label>
                 <textarea name="message" id="message" cols="30" rows="10" class="textarea"></textarea>
-                <p>How do you prefer to be contacted?</p>
-                <div class="radio-field">
+                
+                <fieldset class="radio-field">
+                    <legend>How do you prefer to be contacted?</legend>
                     <label for="contact-pref2">
                         <input type="radio" id="contact-pref2" name="contact-pref" class="radio-input" value="email"
                             checked>
@@ -80,7 +81,7 @@
                         <input type="radio" id="contact-pref1" name="contact-pref" class="radio-input" value="phone">
                         <span>Phone</span>
                     </label>
-                </div>
+                </fieldset>
                 <input type="submit" value="Send" class="button">
             </form>
             <div class="contact--right">
