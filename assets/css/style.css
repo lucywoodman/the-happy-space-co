@@ -138,7 +138,8 @@ h4 {
     line-height: var(--line-height-lg);
 }
 
-p {
+p,
+.subheader {
     max-width: var(--width-lg);
     margin: 3rem 0;
 }
