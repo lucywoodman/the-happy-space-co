@@ -434,6 +434,12 @@ nav {
     padding-top: var(--spacing-sm);
 }
 
+@media all and (min-width: 500px) {
+    .toggle {
+        text-align: right;
+    }
+}
+
 @media all and (min-width: 1024px) {
     .nav { 
         flex-wrap: nowrap; 
