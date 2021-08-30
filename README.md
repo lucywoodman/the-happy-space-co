@@ -56,7 +56,7 @@ The business goals of The Happy Space Co.
 
 1. I run a local business and want to work alongside others for networking or collaboration opportunities. Do you have open working areas?
 2. I run a business alongside my main job and want an evening/weekend office space. What hours are you open?
-3. I normally work alone from home but I miss people and want to be alongside others for social reasons. Are there social/common areas?
+3. I'm researching options for myself/my company. How much does it cost?
 4. I work remotely and don’t have an adequate office space at home. Can I rent a personal office space?
 5. I work remotely and need a venue to run meetings and workshops. Do you have conference rooms with suitable facilities?
 6. I’m visiting this area and want somewhere close to the town centre to work from. Where are you located?
@@ -66,12 +66,18 @@ The business goals of The Happy Space Co.
 
 #### Returning visitor
 
-1. I plan to be a regular visitor! How do I make long-term bookings?
-2. I need to ask a question/have a request for the owners. How can I get in touch?
-3. I need a reminder of when I can visit. What are your opening hours?
-4. I had a great experience! Where can I leave a review?
-5. I can't remember your location. What's your address?
-6. I want to share your business with my friends/colleagues on social media. What are your social media accounts?
+10. I plan to be a regular visitor! How do I make long-term bookings?
+11. I need to ask a question/have a request for the owners. How can I get in touch?
+12. I need a reminder of when I can visit. What are your opening hours?
+13. I had a great experience! Where can I leave a review?
+14. I can't remember your location. What's your address?
+15. I want to share your business with my friends/colleagues on social media. What are your social media accounts?
+
+#### Business owner
+
+16. I want my business to succeed, and to do that, I need more bookings.
+17. I'm proud of my business and want to tell everyone about it. How can we show how amazing our service is?
+18. I need a way for visitors to be able to contact me directly to ask questions or make requests.
 
 ## Design
 
@@ -129,12 +135,91 @@ The one page the does not entirely match is the contact page. As the user would 
 
 The page consists of 4 pages and XXX features.
 
-### 1. Feature
+### 1. Logo and Navigation
 
-- Description
-- User stories covered, 1, 4, 6
+The logo and navigation are predictably at the top of every page. They're fully responsive, with the navigation menu switching to a "hamburger" on smaller screens. All top level pages are included, and the currently active page is highlighted.
 
-[Screenshot]
+![Logo and Navigation](docs/features/feature_logo-and-nav.png)
+
+### 2. Hero section
+
+The hero section welcomes visitors to the page with a headline, a description of what the company does and two call-to-action links for the primary business goals. The company is validated with social proof in the forms of a testimonial with user image, and a Trustpilot score.
+
+The supporting images are inline with the overall brand. The main photo is looking back towards the headline to encourage visitors to return their focus to the left.
+
+- User stories covered: 3, 10, 13, 16, 17
+
+![Hero](docs/features/feature_hero.png)
+
+### 3. Services section
+
+The services section highlights the two main types of workspaces (private or open) as well as two benefits (common areas and 24/7 access). Each has a line illustration and a short description.
+
+- User stories covered: 1, 2, 4, 7, 12
+
+![Services](docs/features/feature_services.png)
+
+### 4. Testimonial section
+
+Two longer testimonials with supporting images, names and titles that act as additional social proof to reassure new visitors that the company offers an excellent service and experience. This ties into the primary business goal.
+
+The images slightly overlap with the backgrounds of the previous and following sections, as a subtle nudge to encourage scrolling.
+
+- User stories covered: 17
+
+![Testimonials](docs/features/feature_testimonials.png)
+
+### 5. FAQ section
+
+The FAQ section uses non-obtrusive `<details>` HTML tags to keep the lengthy answers hidden away unless required. Users can open up whichever question they'd like to know the answer for.
+
+- User stories covered: 1, 2, 4, 5, 7, 8, 9, 12
+
+![FAQ](docs/features/feature_faq.png)
+
+### 6. Call to action
+
+The main call to action section is at the bottom of 3 of the pages. The home page and gallery page encourage visitors to make a booking, while the pricing page encourages visitors to get in touch. All link to the contact page. This is another opportunity to fulfill the primary business goal.
+
+- User stories covered: 16
+
+![FAQ](docs/features/feature_cta.png)
+
+### 7. Footer
+
+The footer provides a secondary menu that mirrors the navigation at the top of the page, to allow visitors to quickly find the other pages. It also provides the business address, phone number, email address and social media links. Lastly, there's a copyright statement at the bottom.
+
+- User stories covered: 6, 11, 13, 14, 15, 17, 18
+
+![FAQ](docs/features/feature_footer.png)
+
+### 8. Pricing page
+
+The pricing page provides more detailed information on the different workspaces available and how much they cost. Each come with their own perks which are listed on each of the workspace cards. Every card has a call-to-action to encourage booking. 
+
+At the bottom of this page, the main call-to-action has been tweaked to say "Not sure?" with a link to the saying "Contact us" instead of "Book a session". This is in the hope that if none of the price points suit the needs of the visitor, that they will contact the business instead.
+
+- User stories covered: 1, 2, 3, 4, 5, 7, 8, 10, 12, 16, 17
+
+![Pricing](docs/features/feature_pricing.png)
+
+### 9. Gallery page
+
+The gallery page uses a masonry grid style to display photos of the venue. All images are selected in keeping with the overall brand. They are also styled to match the other images on the site, with curved corners and a subtle shadow.
+
+- User stories covered: 1, 17
+
+![Gallery](docs/features/feature_gallery.png)
+
+### 10. Contact page
+
+The contact page contains a contact form on the left, and a Google map with contact details below on the right. The form has been styled in keeping with the brand, with lots of space to make it easy to use. It asks for a date and start/finish times for bookings, as well as using radio buttons for contact preference.
+
+The map highlights the location of the venue within the town center. The contact details are the same as what is shown in the footer on the other pages, except brought higher up the page for better visibility. To avoid repeating content, the footer has been removed for this page (though the copyright remains).
+
+- User stories covered: 6, 10, 11, 14, 15, 16, 18
+
+![Contact](docs/features/feature_contact.png)
 
 ## Technologies used
 
@@ -202,7 +287,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 ### Performance
 
-[Google Lighthouse] was used to test the performance of the website.
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance of the website.
 
 <details><summary>Home page</summary>
 <img src="docs/validation/home__lighthouse.png">
