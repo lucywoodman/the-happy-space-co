@@ -785,6 +785,7 @@ footer .inner a:hover {
 
 .social__contact {
     text-align: center;
+    padding: 0 0 var(--spacing-sm) 0;
 }
 
 .copyright {
