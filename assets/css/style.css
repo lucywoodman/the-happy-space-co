@@ -764,6 +764,10 @@ footer {
     line-height: var(--line-height-lg);
 }
 
+.footer--tall {
+    padding-top: var(--spacing-sm);
+}
+
 footer .inner {
     align-items: center;
 }
