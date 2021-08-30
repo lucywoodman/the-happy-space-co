@@ -907,15 +907,11 @@ footer .inner a:hover {
         align-items: flex-start;
     }
 
-    .pricing .inner > div:nth-child(1),
-    .pricing .inner > div:nth-child(2) {
-        margin-right: var(--spacing-sm);
-    }   
-
     .price-card {
         flex-direction: column;
         margin-top: -60px;
-        width: 33%;
+        width: 32%;
+        height: 100%;
     }
 
     .price-card__left {
