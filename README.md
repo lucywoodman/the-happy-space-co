@@ -127,7 +127,7 @@ The one page the does not entirely match is the contact page. As the user would 
 
 ## Features
 
-The page consists of XXX pages and XXX features.
+The page consists of 4 pages and XXX features.
 
 ### 1. Feature
 
@@ -187,8 +187,17 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
-<details><summary>Home</summary>
-<img src="docs/validation/validation-accessibility-index.jpg">
+<details><summary>Home page</summary>
+<img src="docs/validation/home__accessibility.png">
+</details>
+<details><summary>Pricing page</summary>
+<img src="docs/validation/pricing__accessibility.png">
+</details>
+<details><summary>Gallery page</summary>
+<img src="docs/validation/gallery__accessibility.png">
+</details>
+<details><summary>Contact page</summary>
+<img src="docs/validation/contact__accessibility.png">
 </details>
 
 ### Performance
