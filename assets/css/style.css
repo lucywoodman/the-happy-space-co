@@ -845,11 +845,15 @@ footer .inner a:hover {
     box-shadow: var(--shadow-md);
 }
 
-.pricing .inner {
+.pricing-inner {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
-.pricing .inner > div:first-child {
+.pricing-inner > div:first-child {
     margin-top: -60px;
 }
 
@@ -902,16 +906,16 @@ footer .inner a:hover {
 }
 
 @media all and (min-width: 1024px) {
-    .pricing .inner {
+    .pricing-inner {
         flex-direction: row;
-        align-items: flex-start;
+        max-width: 128rem;
+        margin: 0 auto;
     }
 
     .price-card {
         flex-direction: column;
         margin-top: -60px;
         width: 32%;
-        height: 100%;
     }
 
     .price-card__left {
