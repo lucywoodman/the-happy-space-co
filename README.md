@@ -487,7 +487,17 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_address_2.png">
 </details>
 
-8. As a first time visitor, I want to know how good the internet connection is, so that I can be sure that I can run video calls without a hitch.
+8. As a first time visitor, I want the site to be responsive, so that I can view information about the venue while on the go.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Any page on a small screen | Navigate to any part of the site | The site to work and look good no matter the screen size | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_responsive.gif">
+</details>
+
+9. As a first time visitor, I want to know how good the internet connection is, so that I can be sure that I can run video calls without a hitch.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -497,7 +507,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_internet.png">
 </details>
 
-9. As a first time visitor, I want to know how to reserve workspaces, so I can make a booking.
+10. As a first time visitor, I want to know how to reserve workspaces, so I can make a booking.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -513,7 +523,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_cta_4.png">
 </details>
 
-10. As a first time visitor, I want to know where I can ask questions about the venue, so that I can get all the information I need before booking.
+11. As a first time visitor, I want to know where I can ask questions about the venue, so that I can get all the information I need before booking.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -527,7 +537,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_contact_3.png">
 </details>
 
-11. As a returning visitor, I want to be able to submit feedback, so that the business owners can consider my thoughts for future website/venue updates.
+12. As a returning visitor, I want to be able to submit feedback, so that the business owners can consider my thoughts for future website/venue updates.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -541,7 +551,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_contact_3.png">
 </details>
 
-12. As a returning visitor, I want a reminder of the address/see a map, so that I can plan my route.
+13. As a returning visitor, I want a reminder of the address/see a map, so that I can plan my route.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -553,7 +563,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_address_2.png">
 </details>
 
-13. As a returning visitor, I want a reminder of the phone number/email address, so that I can contact the venue directly with any questions.
+14. As a returning visitor, I want a reminder of the phone number/email address, so that I can contact the venue directly with any questions.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -565,7 +575,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_contact_3.png">
 </details>
 
-14. As a returning visitor, I want to know the venue's social media accounts, so that I can share my location/experiences with friends/colleagues on social media.
+15. As a returning visitor, I want to know the venue's social media accounts, so that I can share my location/experiences with friends/colleagues on social media.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -577,7 +587,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_contact_3.png">
 </details>
 
-15. As the business owner, I want more bookings, so that my business can succeed.
+16. As the business owner, I want more bookings, so that my business can succeed.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -593,7 +603,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_cta_4.png">
 </details>
 
-16. As the business owner, I want to to show how amazing our service/venue is, so that I can feel proud and that everyone will talk about it.
+17. As the business owner, I want to to show how amazing our service/venue is, so that I can feel proud and that everyone will talk about it.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -609,7 +619,7 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_workspaces_4.png">
 </details>
 
-17. As the business owner, I want a way for visitors to be able to contact me directly through the website, so that I can help with special requests.
+18. As the business owner, I want a way for visitors to be able to contact me directly through the website, so that I can help with special requests.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
@@ -623,19 +633,29 @@ The website was tested on the following browsers:
 <img src="docs/testing/user_story_contact_3.png">
 </details>
 
+19. As the business owner, I want visitors to never have to use the browser's back button, so that they feel they have control over the site.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Thank you page | Navigate to the contact page, complete the form | To receive a success message | Works as expected |
+| 404 page | Navigate to a non-existent page | To not get lost | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_thanks.png">
+<img src="docs/testing/user_story_404.png">
+</details>
+
 ## Bugs
 
 | **Bug**         | **Fix** |
 | --------------- | ------- |
 | Bug explanation | Bug fix |
 | Button hover states aren't working correctly | Move `.button` class from the `<li>` to the `<a>` element |
-| Menu button looks ugly after adding mobile navigation | This is because the navigation relies on `display: block-inline`, which messes up the button styling. This could have been fixed with some CSS changes, but I opted to remove the button instead |
 | Logo image sits above logo after adding mobile navigation | Move it to inside the logo's `<li>` element. |
 | Logo breaks into two lines on smaller screens | Reduce the font size for smaller screens |
 | FAQ items are not using the full width available | Remove width restriction from FAQ answer `<p>` elements |
-| Pricing cards are not spaced correctly | Reduce padding on the cards and add a width of 33% |
-| Pricing cards do not align at the top after adding responsiveness | Add `align-items: flex-start` to parent container |
-| Map is not responsive | Remove width and height from the iframe and add extra CSS as per [this GitHub Gist](https://gist.github.com/magnetikonline/8487169) |
+| Pricing cards are not spaced correctly | Reduce padding on the cards and add a width of 32% |
+| Map is not responsive | Remove width and height from the iframe and add extra CSS |
 | Safari shows triangles for `<summary>` tag, even though it's hidden in the CSS | Set `summary::-webkit-details-marker` to `display: none;` |
 | Mobile menu toggle causes accessibility checker to fail | Give the link an `aria-label` |
 
@@ -714,4 +734,4 @@ I would like to take the opportunity to thank:
 
 - My family, friends and colleagues for their advice, support and help with testing.
 - My mentor Mo Shami for their feedback, advice and support.
-- Code Institute Slack for advice.
+- Code Institute Slack for peer reviews and advice.
