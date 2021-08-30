@@ -333,6 +333,12 @@ The [W3C Markup Validation Service](https://validator.w3.org/) was used to valid
 <details><summary>Contact page</summary>
 <img src="docs/validation/contact__validation-html.png">
 </details>
+<details><summary>Form submission page</summary>
+<img src="docs/validation/form-submission__validation-html.png">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/validation/404__validation-html.png">
+</details>
 
 ### CSS validation
 
@@ -357,6 +363,12 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 </details>
 <details><summary>Contact page</summary>
 <img src="docs/validation/contact__accessibility.png">
+</details>
+<details><summary>Form submission page</summary>
+<img src="docs/validation/form-submission__accessibility.png">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/validation/404__accessibility.png">
 </details>
 
 ### Performance
@@ -649,7 +661,6 @@ The website was tested on the following browsers:
 
 | **Bug**         | **Fix** |
 | --------------- | ------- |
-| Bug explanation | Bug fix |
 | Button hover states aren't working correctly | Move `.button` class from the `<li>` to the `<a>` element |
 | Logo image sits above logo after adding mobile navigation | Move it to inside the logo's `<li>` element. |
 | Logo breaks into two lines on smaller screens | Reduce the font size for smaller screens |
