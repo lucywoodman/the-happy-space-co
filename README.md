@@ -91,21 +91,17 @@ Inspired by offices and coworking spaces I've used, as well as online interior d
 
 The site is designed using a modern, bright and clean palette (modern, creative), with a warm and elegant dark green (welcoming, classy) in the footer and text. This is to reflect how the venue would look, carrying the same feel from the website to the coworking space. New visitors would already have a positive emotional response from the design and expect the same from the venue.
 
-[XXX ADD PALETTE HERE]
+![Palette](docs/design/palette.png)
 
 ### Fonts
 
 The classy font "Playfair Display" is used for the headers, and the modern "Lato" is used for almost everything else. I chose to use "Abril Fatface" for any digits on the site, as this matches the header font well but doesn't drop below the baseline like Playfair does. This makes it easier to read and keeps the space around the pricing even.
-
-[XXX ADD FONTS AND NUMERALS HERE]
 
 ### Imagery
 
 All of the photos were selected as complimentary to the design, as well as showing workspaces that fit the brand keywords. The colours within the photos reflect the branding, using dark greens (plants), oranges/pinks (furniture, wood) and whites.
 
 Simple and modern line illustrations are used for the main features of the coworking space, as a creative alternative to using further photos on the home page. The same simple line style is used for the logo and icons.
-
-[XXX ADD SOMETHING HERE]
 
 ### Structure
 
