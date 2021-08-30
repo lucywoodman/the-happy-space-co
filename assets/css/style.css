@@ -310,9 +310,10 @@ a:hover {
 }
 
 /* || Divider */
-/* Hat tip to
-https://techbriefers.com/how-to-create-a-half-border-design-and-fixed-width-border-design-in-css/
-for the blog post */
+/* 
+    The following code snippet is from https://techbriefers.com/how-to-create-a-half-border-design-and-fixed-width-border-design-in-css/
+    I didn't want an element that could break the layout, so the :after pseudo element works well here.
+*/
 .break { 
     width: 100%; 
 }
@@ -325,6 +326,7 @@ for the blog post */
     background: var(--text-color);
     margin: 0 auto;
 }
+/* End snippet */
 
 @media all and (min-width: 1024px) {
     .break:after {
@@ -338,8 +340,6 @@ for the blog post */
     url("../images/hero__main.png") center / cover no-repeat;
 }
 
-
-
 @media all and (min-width: 1024px) {
     header.home,
     .hero {
@@ -352,9 +352,10 @@ for the blog post */
     }
 }
 
-/* Hat tip to 
-https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535 
-for the blog post on mobile navigation */
+/*
+    Parts of the following code is from https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535 
+    I wanted a lightweight (i.e. not Bootstrap) mobile navigation to slot in with the existing styling, and this fit my needs.
+*/
 nav {
     width: 100%;
 }
@@ -464,7 +465,7 @@ nav {
     }
 }
 
-/* || HERO */
+/* || HERO SECTION */
 .hero {
     padding-bottom: var(--spacing-md);
 }
@@ -559,7 +560,7 @@ nav {
     }
 }
 
-/* || FEATURES/PERKS */
+/* || FEATURES/PERKS SECTION */
 .features {
     margin-top: -30px;
     background: var(--brand-pink);
@@ -591,7 +592,7 @@ nav {
     }
 }
 
-/* || TESTIMONIALS */
+/* || TESTIMONIALS SECTION */
 .testimonials {
     margin-top: -70px;
     width: 100%;
@@ -636,7 +637,7 @@ nav {
     }
 }
 
-/* || FAQ */
+/* || FAQ SECTION */
 .faq {
     background: var(--brand-mint);
 }
@@ -704,9 +705,10 @@ nav {
     }
 }
 
-/* Hat tip to 
-https://morioh.com/p/8ed37dfd6b7d 
-for the blog post on the details tag */
+/* 
+    The following code is from https://morioh.com/p/8ed37dfd6b7d 
+    Because I was unfamiliar with the details and summary HTML elements prior to this project.
+*/
 summary {
     cursor: pointer;
     position: relative;
@@ -734,8 +736,9 @@ details > summary {
 summary::-webkit-details-marker {
     display: none;
 }
+/* End of snippet */
 
-/* || CALL TO ACTION */
+/* || CALL TO ACTION SECTION */
 .call-to-action {
     margin-top: -30px;
     background: var(--brand-green);
@@ -1065,6 +1068,10 @@ textarea {
     width: 100%;
 }
 
+/*
+    The following code snippet is from https://gist.github.com/magnetikonline/8487169
+    I used this to save some time as I was having trouble getting the iframe to cooperate.
+*/
 .map {
     height: 0;
     overflow: hidden;
@@ -1082,6 +1089,7 @@ textarea {
     left: 0;
     position: absolute;
 }
+/* End of snippet */
 
 .contact-details {
     padding: var(--spacing-md) 0;
