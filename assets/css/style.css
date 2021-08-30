@@ -309,7 +309,7 @@ a:hover {
     box-shadow: var(--shadow-xl);
 }
 
-.logo {
+.logo-glyph {
     width: 26px;
     height: 26px;
     margin-right: 1rem;
@@ -317,7 +317,7 @@ a:hover {
 }
 
 @media all and (min-width: 1024px) {
-    .logo {
+    .logo-glyph {
         width: 32px;
         height: 32px;
     }
@@ -382,7 +382,7 @@ nav {
 }
 
 #logo {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: var(--font-weight-bold);
     flex-grow: 1;
 }
