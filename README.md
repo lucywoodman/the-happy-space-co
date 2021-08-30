@@ -52,32 +52,31 @@ The business goals of The Happy Space Co.
 
 ### User stories
 
-#### First-time visitor
+#### First-time visitors
 
-1. I run a local business and want to work alongside others for networking or collaboration opportunities. Do you have open working areas?
-2. I run a business alongside my main job and want an evening/weekend office space. What hours are you open?
-3. I'm researching options for myself/my company. How much does it cost?
-4. I work remotely and don’t have an adequate office space at home. Can I rent a personal office space?
-5. I work remotely and need a venue to run meetings and workshops. Do you have conference rooms with suitable facilities?
-6. I’m visiting this area and want somewhere close to the town centre to work from. Where are you located?
-7. I work remotely and I need an office space away from my noisy household. Do you have private and quiet offices?
-8. I need a reliable internet connection for lots of video calls. How good is your internet?
-9. My job involves lots of in-person meetings. Can I have visitors?
+1. As an entrepreneur, I want to know if there are open workspaces, so that I can work alongside others for networking or collaboration opportunities.
+2. As an entrepreneur, I want to know if I can have people visit my workspace, so I can continue my in-person meetings.
+3. As a remote worker, I want to know if there are personal workspaces with good desks and chairs available, as I'm fed up of working from my sofa at home.
+4. As a remote worker, I want to know what rooms are available for workshops, so that I can bring my team together for training once a month.
+5. As a side-hustler, I want to know when I can use the workspaces, so that I can work in the evenings and weekends on my business.
+6. As a local business owner, I want to know the cost of the workspaces, so that I can determine whether it is within budget.
+7. As a non-local visitor, I want to know how close the venue is to the town center, so that I won't get lost in an area I don't know.
+8. As a first time visitor, I want to know how good the internet connection is, so that I can be sure that I can run video calls without a hitch.
+9. As a first time visitor, I want to know how to reserve workspaces, so I can make a booking.
+10. As a first time visitor, I want to know where I can ask questions about the venue, so that I can get all the information I need before booking.
 
-#### Returning visitor
+#### Returning visitors
 
-10. I plan to be a regular visitor! How do I make long-term bookings?
-11. I need to ask a question/have a request for the owners. How can I get in touch?
-12. I need a reminder of when I can visit. What are your opening hours?
-13. I had a great experience! Where can I leave a review?
-14. I can't remember your location. What's your address?
-15. I want to share your business with my friends/colleagues on social media. What are your social media accounts?
+11. As a returning visitor, I want to be able to submit feedback, so that the business owners can consider my thoughts for future website/venue updates.
+12. As a returning visitor, I want a reminder of the address/see a map, so that I can plan my route.
+13. As a returning visitor, I want a reminder of the phone number/email address, so that I can contact the venue directly with any questions.
+14. As a returning visitor, I want to know the venue's social media accounts, so that I can share my location/experiences with friends/colleagues on social media.
 
 #### Business owner
 
-16. I want my business to succeed, and to do that, I need more bookings.
-17. I'm proud of my business and want to tell everyone about it. How can we show how amazing our service is?
-18. I need a way for visitors to be able to contact me directly to ask questions or make requests.
+15. As the business owner, I want more bookings, so that my business can succeed.
+16. As the business owner, I want to to show how amazing our service/venue is, so that I can feel proud and that everyone will talk about it.
+17. As the business owner, I want a way for visitors to be able to contact me directly through the website, so that I can help with special requests.
 
 ## Design
 
@@ -133,11 +132,11 @@ The one page the does not entirely match is the contact page. As the user would 
 
 ## Features
 
-The page consists of 4 pages and XXX features.
+The page consists of 4 pages and 10 features.
 
 ### 1. Logo and Navigation
 
-The logo and navigation are predictably at the top of every page. They're fully responsive, with the navigation menu switching to a "hamburger" on smaller screens. All top level pages are included, and the currently active page is highlighted.
+The logo and navigation are predictably at the top of every page. They're fully responsive, with the navigation menu switching to a "hamburger" on smaller screens. All pages are included, and the currently active page is highlighted.
 
 ![Logo and Navigation](docs/features/feature_logo-and-nav.png)
 
@@ -147,7 +146,7 @@ The hero section welcomes visitors to the page with a headline, a description of
 
 The supporting images are inline with the overall brand. The main photo is looking back towards the headline to encourage visitors to return their focus to the left.
 
-- User stories covered: 3, 10, 13, 16, 17
+- User stories covered: 6, 9, 11, 15, 16.
 
 ![Hero](docs/features/feature_hero.png)
 
@@ -155,7 +154,7 @@ The supporting images are inline with the overall brand. The main photo is looki
 
 The services section highlights the two main types of workspaces (private or open) as well as two benefits (common areas and 24/7 access). Each has a line illustration and a short description.
 
-- User stories covered: 1, 2, 4, 7, 12
+- User stories covered: 1, 3, 4.
 
 ![Services](docs/features/feature_services.png)
 
@@ -165,7 +164,7 @@ Two longer testimonials with supporting images, names and titles that act as add
 
 The images slightly overlap with the backgrounds of the previous and following sections, as a subtle nudge to encourage scrolling.
 
-- User stories covered: 17
+- User stories covered: 16.
 
 ![Testimonials](docs/features/feature_testimonials.png)
 
@@ -173,7 +172,7 @@ The images slightly overlap with the backgrounds of the previous and following s
 
 The FAQ section uses non-obtrusive `<details>` HTML tags to keep the lengthy answers hidden away unless required. Users can open up whichever question they'd like to know the answer for.
 
-- User stories covered: 1, 2, 4, 5, 7, 8, 9, 12
+- User stories covered: 1, 2, 3, 4, 5.
 
 ![FAQ](docs/features/feature_faq.png)
 
@@ -181,7 +180,7 @@ The FAQ section uses non-obtrusive `<details>` HTML tags to keep the lengthy ans
 
 The main call to action section is at the bottom of 3 of the pages. The home page and gallery page encourage visitors to make a booking, while the pricing page encourages visitors to get in touch. All link to the contact page. This is another opportunity to fulfill the primary business goal.
 
-- User stories covered: 16
+- User stories covered: 9, 15.
 
 ![FAQ](docs/features/feature_cta.png)
 
@@ -189,7 +188,7 @@ The main call to action section is at the bottom of 3 of the pages. The home pag
 
 The footer provides a secondary menu that mirrors the navigation at the top of the page, to allow visitors to quickly find the other pages. It also provides the business address, phone number, email address and social media links. Lastly, there's a copyright statement at the bottom.
 
-- User stories covered: 6, 11, 13, 14, 15, 17, 18
+- User stories covered: 7, 10, 11, 12, 13, 14, 17.
 
 ![FAQ](docs/features/feature_footer.png)
 
@@ -199,7 +198,7 @@ The pricing page provides more detailed information on the different workspaces 
 
 At the bottom of this page, the main call-to-action has been tweaked to say "Not sure?" with a link to the saying "Contact us" instead of "Book a session". This is in the hope that if none of the price points suit the needs of the visitor, that they will contact the business instead.
 
-- User stories covered: 1, 2, 3, 4, 5, 7, 8, 10, 12, 16, 17
+- User stories covered: 1, 3, 4, 5, 6, 8, 9, 10, 15, 16, 17.
 
 ![Pricing](docs/features/feature_pricing.png)
 
@@ -207,7 +206,7 @@ At the bottom of this page, the main call-to-action has been tweaked to say "Not
 
 The gallery page uses a masonry grid style to display photos of the venue. All images are selected in keeping with the overall brand. They are also styled to match the other images on the site, with curved corners and a subtle shadow.
 
-- User stories covered: 1, 17
+- User stories covered: 1, 3, 4, 16.
 
 ![Gallery](docs/features/feature_gallery.png)
 
@@ -217,7 +216,7 @@ The contact page contains a contact form on the left, and a Google map with cont
 
 The map highlights the location of the venue within the town center. The contact details are the same as what is shown in the footer on the other pages, except brought higher up the page for better visibility. To avoid repeating content, the footer has been removed for this page (though the copyright remains).
 
-- User stories covered: 6, 10, 11, 14, 15, 16, 18
+- User stories covered: 7, 9, 10, 11, 12, 13, 14, 15, 17.
 
 ![Contact](docs/features/feature_contact.png)
 
@@ -306,7 +305,9 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 The website was tested on the following devices:
 
--
+- Apple MacBook Pro and Air
+- iPhone X, iPhone SE
+- Huawei P30 Pro
 
 ### Browser compatability
 
@@ -319,15 +320,232 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. Repeat user stories, followed by a table with a feature or two to solve the issue. Example: I run a local business and want to work alongside others for networking. Do you have networking events? (terrible example, because I probably won't add events lol)
+1. As an entrepreneur, I want to know if there are open workspaces, so that I can work alongside others for networking or collaboration opportunities.
 
 | **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
 | --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
-| Events section on home page | Scroll down the home page | To find information on networking events for local businesses | Works as expected |
+| Services section on the home page | Scroll down the home page | To find information on the workspaces | Works as expected |
+| FAQ section on the home page | Scroll down the home page | To find information on the workspaces | Works as expected |
+| Pricing page | Navigate to the Pricing page, scroll down | To find information on the workspaces | Works as expected |
+| Gallery page | Navigate to the Gallery page, scroll down | To find photos of the workspaces | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
-<img src="docs/user-story-testing/user-story-1v2.jpg">
+<img src="docs/testing/user_story_workspaces_1.png">
+<img src="docs/testing/user_story_workspaces_2.png">
+<img src="docs/testing/user_story_workspaces_3.png">
+<img src="docs/testing/user_story_workspaces_4.png">
+</details>
+
+2. As an entrepreneur, I want to know if I can have people visit my workspace, so I can continue my in-person meetings.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| FAQ section on the home page | Scroll down the home page | To find information on visitors to workspaces | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_visitors.png">
+</details>
+
+3. As a remote worker, I want to know if there are personal workspaces with good desks and chairs available, as I'm fed up of working from my sofa at home.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Services section on the home page | Scroll down the home page | To find information on the workspaces | Works as expected |
+| FAQ section on the home page | Scroll down the home page | To find information on the workspaces | Works as expected |
+| Pricing page | Navigate to the Pricing page, scroll down | To find information on the workspaces | Works as expected |
+| Gallery page | Navigate to the Gallery page, scroll down | To find photos of the workspaces | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_workspaces_1.png">
+<img src="docs/testing/user_story_workspaces_2.png">
+<img src="docs/testing/user_story_workspaces_3.png">
+<img src="docs/testing/user_story_workspaces_4.png">
+</details>
+
+4. As a remote worker, I want to know what rooms are available for workshops, so that I can bring my team together for training once a month.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Services section on the home page | Scroll down the home page | To find information on the workspaces | Works as expected |
+| FAQ section on the home page | Scroll down the home page | To find information on the workspaces | Works as expected |
+| Pricing page | Navigate to the Pricing page, scroll down | To find information on the workspaces | Works as expected |
+| Gallery page | Navigate to the Gallery page, scroll down | To find photos of the workspaces | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_workspaces_1.png">
+<img src="docs/testing/user_story_workspaces_2.png">
+<img src="docs/testing/user_story_workspaces_3.png">
+<img src="docs/testing/user_story_workspaces_4.png">
+</details>
+
+5. As a side-hustler, I want to know when I can use the workspaces, so that I can work in the evenings and weekends on my business.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| FAQ section on the home page | Scroll down the home page | To find information on the office hours | Works as expected |
+| Pricing page | Navigate to the Pricing page, scroll down | To find information on the office hours | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_hours_1.png">
+<img src="docs/testing/user_story_hours_2.png">
+</details>
+
+6. As a local business owner, I want to know the cost of the workspaces, so that I can determine whether it is within budget.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Pricing page | Navigate to the Pricing page, scroll down | To find information on the pricing | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_pricing.png">
+</details>
+
+7. As a non-local visitor, I want to know how close the venue is to the town center, so that I won't get lost in an area I don't know.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Footer on any page | Scroll down any page | To find information on the venue location | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | To find information on the venue location with a map | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_address_1.png">
+<img src="docs/testing/user_story_address_2.png">
+</details>
+
+8. As a first time visitor, I want to know how good the internet connection is, so that I can be sure that I can run video calls without a hitch.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Pricing page | Navigate to the Pricing page, scroll down | To find information on the the internet speed | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_internet.png">
+</details>
+
+9. As a first time visitor, I want to know how to reserve workspaces, so I can make a booking.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Hero section on the homepage | None - top of home page | Find next steps to book | Works as expected |
+| Call to action on any page | Scroll down on home page or gallery page | Find next steps to book | Works as expected |
+| Pricing page | Navigate to Pricing page, scroll down | Find next steps to book | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | Make a booking | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_cta_1.png">
+<img src="docs/testing/user_story_cta_2.png">
+<img src="docs/testing/user_story_cta_3.png">
+<img src="docs/testing/user_story_cta_4.png">
+</details>
+
+10. As a first time visitor, I want to know where I can ask questions about the venue, so that I can get all the information I need before booking.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Footer on any page | Scroll down any page | Find contact information | Works as expected |
+| Call to action on Pricing page | Navigate to Pricing page, scroll down | Find where to contact | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | Find contact information | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_contact_1.png">
+<img src="docs/testing/user_story_contact_2.png">
+<img src="docs/testing/user_story_contact_3.png">
+</details>
+
+11. As a returning visitor, I want to be able to submit feedback, so that the business owners can consider my thoughts for future website/venue updates.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Hero section on home page | Scroll down home page | Find review information | Works as expected |
+| Footer on any page | Scroll down any page | Find contact information | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | Find contact information | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_review.png">
+<img src="docs/testing/user_story_contact_1.png">
+<img src="docs/testing/user_story_contact_3.png">
+</details>
+
+12. As a returning visitor, I want a reminder of the address/see a map, so that I can plan my route.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Footer on any page | Scroll down any page | To find the venue address | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | To find the venue address with a map | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_address_1.png">
+<img src="docs/testing/user_story_address_2.png">
+</details>
+
+13. As a returning visitor, I want a reminder of the phone number/email address, so that I can contact the venue directly with any questions.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Footer on any page | Scroll down any page | To find the phone number or email address | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | To find the phone number or email address | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_contact_1.png">
+<img src="docs/testing/user_story_contact_3.png">
+</details>
+
+14. As a returning visitor, I want to know the venue's social media accounts, so that I can share my location/experiences with friends/colleagues on social media.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Footer on any page | Scroll down any page | To find the social media links | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | To find the the social media links | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_contact_1.png">
+<img src="docs/testing/user_story_contact_3.png">
+</details>
+
+15. As the business owner, I want more bookings, so that my business can succeed.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Hero section on the homepage | None - top of home page | See booking CTA | Works as expected |
+| Call to action on any page | Scroll down on home page or gallery page | See booking CTA | Works as expected |
+| Pricing page | Navigate to Pricing page, scroll down | See booking CTA | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | See form for booking | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_cta_1.png">
+<img src="docs/testing/user_story_cta_2.png">
+<img src="docs/testing/user_story_cta_3.png">
+<img src="docs/testing/user_story_cta_4.png">
+</details>
+
+16. As the business owner, I want to to show how amazing our service/venue is, so that I can feel proud and that everyone will talk about it.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Hero section on home page | None - top of home page | See social proof | Works as expected |
+| Testimonial section on home page | Scroll down home page | See testimonials | Works as expected |
+| Pricing page | Navigate to Pricing page, scroll down | See detailed information on services | Works as expected |
+| Gallery page | Navigate to Gallery page, scroll down | See photography of venue | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_amaze_1.png">
+<img src="docs/testing/user_story_amaze_2.png">
+<img src="docs/testing/user_story_amaze_3.png">
+<img src="docs/testing/user_story_workspaces_4.png">
+</details>
+
+17. As the business owner, I want a way for visitors to be able to contact me directly through the website, so that I can help with special requests.
+
+| **Feature**                 | **Action**                | **Expected Result**                                           | **Actual Result** |
+| --------------------------- | ------------------------- | ------------------------------------------------------------- | ----------------- |
+| Footer on any page | Scroll down any page | See contact information | Works as expected |
+| Call to action on Pricing page | Navigate to Pricing page, scroll down | See CTA | Works as expected |
+| Contact page | Navigate to the Contact page, scroll down | See contact information | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user_story_contact_1.png">
+<img src="docs/testing/user_story_contact_2.png">
+<img src="docs/testing/user_story_contact_3.png">
 </details>
 
 ## Bugs
