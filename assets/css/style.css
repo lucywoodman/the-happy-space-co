@@ -309,20 +309,6 @@ a:hover {
     box-shadow: var(--shadow-xl);
 }
 
-.logo-glyph {
-    width: 26px;
-    height: 26px;
-    margin-right: 1rem;
-    vertical-align: -3px;
-}
-
-@media all and (min-width: 1024px) {
-    .logo-glyph {
-        width: 32px;
-        height: 32px;
-    }
-}
-
 /* || Divider */
 /* Hat tip to
 https://techbriefers.com/how-to-create-a-half-border-design-and-fixed-width-border-design-in-css/
@@ -397,6 +383,13 @@ nav {
     box-shadow: none;
 }
 
+.logo-glyph {
+    width: 26px;
+    height: 26px;
+    margin-right: 1rem;
+    vertical-align: -3px;
+}
+
 .nav__item a {
     display: block;
     padding: 15px 5px;
@@ -444,6 +437,11 @@ nav {
 @media all and (min-width: 1024px) {
     .nav { 
         flex-wrap: nowrap; 
+    }
+
+    .logo-glyph {
+        width: 32px;
+        height: 32px;
     }
 
     .nav__item a { 
