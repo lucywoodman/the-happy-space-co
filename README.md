@@ -729,6 +729,7 @@ For the icons:
 - [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535) - a blog post on how to build a mobile navigation. For the site's mobile navigation.
 - [morioh.com](https://morioh.com/p/8ed37dfd6b7d) - a tutorial for a FAQ accordion. For the site's FAQ section on the home page.
 - [GitHub Gist](https://gist.github.com/magnetikonline/8487169) - responsive Google Map embedding. For the site's contact page.
+- [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) - for how to set up a 404 page in GitHub pages.
 
 ### Reference material
 
