@@ -264,7 +264,9 @@ This provides visitors with a consistent experience of the site, no matter the s
 
 - User stories covered: 8.
 
-![Responsive development](docs/features/feature_responsive1.png)![Responsive development](docs/features/feature_responsive2.png)
+| Home page | Contact page |
+|------------|-------------------------|
+|![Responsive development](docs/features/feature_responsive1.png)|![Responsive development](docs/features/feature_responsive2.png)|
 
 ## Technologies used
 
