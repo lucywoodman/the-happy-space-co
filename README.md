@@ -152,7 +152,7 @@ The one page the does not entirely match is the contact page. As the user would 
 
 ## Features
 
-The page consists of 4 pages and 10 features.
+The page consists of 4 pages and 13 features.
 
 ### 1. Logo and Navigation
 
@@ -239,6 +239,32 @@ The map highlights the location of the venue within the town center. The contact
 - User stories covered: 7, 9, 10, 11, 12, 13, 14, 15, 17.
 
 ![Contact](docs/features/feature_contact.png)
+
+### 11. Thank you page
+
+After submitting the form, visitors are redirected to a form submission page. This page says thank you, with a short explanation of the expected time for a response. There's also a button to return to the home page.
+
+- User stories covered: 19.
+
+![Thank you](docs/features/feature_thanks.png)
+
+### 12. 404 page
+
+If a visitor happens upon a page that doesn't exist on the site, they will be redirected to a 404 page. This explains what it's there for, as well as a button to return back to the home page.
+
+- User stories covered: 19.
+
+![404](docs/features/feature_404.png)
+
+### 13. Fully responsive site
+
+The site has been built using the mobile first methodology. This means that the base CSS code is for mobile screens, and the media queries build upon that for the larger screen sizes.
+
+This provides visitors with a consistent experience of the site, no matter the screensize or device. Allowing them to view information no matter where they are.
+
+- User stories covered: 8.
+
+![Responsive development](docs/features/feature_responsive1.png)![Responsive development](docs/features/feature_responsive2.png)
 
 ## Technologies used
 
