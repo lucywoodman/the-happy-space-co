@@ -12,7 +12,31 @@ Visitors can reserve desk space, offices or conference rooms on a short or longt
 
 1. [Project goals](#project-goals)
 2. [User experience](#user-experience)
-XXX
+   1. [Target audience](#target-audience)
+   2. [User requirements and expectations](#user-requirements-and-expectations)
+   3. [User stories](#user-stories)
+3. [Design](#design)
+   1. [Colours](#colours)
+   2. [Fonts](#fonts)
+   3. [Imagery](#imagery)
+   4. [Structure](#structure)
+   5. [Wireframes](#wireframes)
+4. [Features](#features)
+5. [Technologies used](#technologies-used)
+   1. [Languages](#languages)
+   2. [Frameworks and tools](#frameworks-and-tools)
+6. [Validation](#validation)
+   1. [HTML validation](#html-validation)
+   2. [CSS validation](#css-validation)
+   3. [Accessibility](#accessibility)
+   4. [Performance](#performance)
+   5. [Device testing](#performing-tests-on-various-devices)
+   6. [Browser compatibility](#browser-compatibility)
+   7. [Testing user stories](#testing-user-stories)
+7. [Bugs](#bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project goals
 
