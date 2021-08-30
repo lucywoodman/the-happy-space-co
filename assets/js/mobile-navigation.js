@@ -1,3 +1,6 @@
+/* 
+    Code snippet from: https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535
+*/    
 const toggle = document.querySelector(".toggle");
 const menu = document.querySelector(".nav");
 
