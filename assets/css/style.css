@@ -783,6 +783,10 @@ footer .inner a:hover {
     justify-content: space-between;
 }
 
+.social__contact {
+    text-align: center;
+}
+
 .copyright {
     justify-content: flex-end;
 }
@@ -796,6 +800,10 @@ footer .inner a:hover {
     footer .inner > address {
         text-align: left;
         margin-bottom: 0;
+    }
+
+    .social__contact {
+        text-align: right;
     }
 }
 
