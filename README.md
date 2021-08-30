@@ -387,6 +387,12 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <details><summary>Contact page</summary>
 <img src="docs/validation/contact__lighthouse.gif">
 </details>
+<details><summary>Form submission page</summary>
+<img src="docs/validation/form-submission__lighthouse.png">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/validation/404__lighthouse.gif">
+</details>
 
 ### Performing tests on various devices
 
