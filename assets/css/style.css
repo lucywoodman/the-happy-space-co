@@ -669,6 +669,18 @@ nav {
     max-width: 100%;
 }
 
+.faq__item a {
+    padding: 1rem 0;
+    color: var(--brand-clay);
+    border-bottom: 1px solid var(--brand-clay);
+}
+
+.faq__item a:hover,
+.faq__item a:active {
+    padding: 1rem 2rem;
+    border: none;
+}
+
 @media all and (min-width: 1024px) {
     .faq {
         margin-top: -60px;
