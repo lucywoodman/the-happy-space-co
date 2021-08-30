@@ -83,22 +83,24 @@ The business goals of The Happy Space Co.
 5. As a side-hustler, I want to know when I can use the workspaces, so that I can work in the evenings and weekends on my business.
 6. As a local business owner, I want to know the cost of the workspaces, so that I can determine whether it is within budget.
 7. As a non-local visitor, I want to know how close the venue is to the town center, so that I won't get lost in an area I don't know.
-8. As a first time visitor, I want to know how good the internet connection is, so that I can be sure that I can run video calls without a hitch.
-9. As a first time visitor, I want to know how to reserve workspaces, so I can make a booking.
-10. As a first time visitor, I want to know where I can ask questions about the venue, so that I can get all the information I need before booking.
+8. As a first time visitor, I want the site to be responsive, so that I can view information about the venue while on the go.
+9. As a first time visitor, I want to know how good the internet connection is, so that I can be sure that I can run video calls without a hitch.
+10. As a first time visitor, I want to know how to reserve workspaces, so I can make a booking.
+11. As a first time visitor, I want to know where I can ask questions about the venue, so that I can get all the information I need before booking.
 
 #### Returning visitors
 
-11. As a returning visitor, I want to be able to submit feedback, so that the business owners can consider my thoughts for future website/venue updates.
-12. As a returning visitor, I want a reminder of the address/see a map, so that I can plan my route.
-13. As a returning visitor, I want a reminder of the phone number/email address, so that I can contact the venue directly with any questions.
-14. As a returning visitor, I want to know the venue's social media accounts, so that I can share my location/experiences with friends/colleagues on social media.
+12. As a returning visitor, I want to be able to submit feedback, so that the business owners can consider my thoughts for future website/venue updates.
+13. As a returning visitor, I want a reminder of the address/see a map, so that I can plan my route.
+14. As a returning visitor, I want a reminder of the phone number/email address, so that I can contact the venue directly with any questions.
+15. As a returning visitor, I want to know the venue's social media accounts, so that I can share my location/experiences with friends/colleagues on social media.
 
 #### Business owner
 
-15. As the business owner, I want more bookings, so that my business can succeed.
-16. As the business owner, I want to to show how amazing our service/venue is, so that I can feel proud and that everyone will talk about it.
-17. As the business owner, I want a way for visitors to be able to contact me directly through the website, so that I can help with special requests.
+16. As the business owner, I want more bookings, so that my business can succeed.
+17. As the business owner, I want to to show how amazing our service/venue is, so that I can feel proud and that everyone will talk about it.
+18. As the business owner, I want a way for visitors to be able to contact me directly through the website, so that I can help with special requests.
+19. As the business owner, I want visitors to never have to use the browser's back button, so that they feel they have control over the site.
 
 ## Design
 
@@ -664,11 +666,10 @@ For the icons:
 
 ### Code
 
-- [techbriefers.com](https://techbriefers.com/how-to-create-a-half-border-design-and-fixed-width-border-design-in-css/) - a blog post about a fixed width border. Referred to for the mini dividers throughout the site.
-- [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535) - a blog post on how to build a mobile navigation. Referred to for the site's mobile navigation.
-- [morioh.com](https://morioh.com/p/8ed37dfd6b7d) - a tutorial for a FAQ accordion. Referred to for the site's FAQ section on the home page.
-- [Andreas Storm](https://codepen.io/avstorm/pen/eYNLwVd) on Codepen - an example of radio input styling. Referred to for the site's contact page.
-- [GitHub Gist](https://gist.github.com/magnetikonline/8487169) - responsive Google Map embedding. Used for the site's contact page.
+- [techbriefers.com](https://techbriefers.com/how-to-create-a-half-border-design-and-fixed-width-border-design-in-css/) - a blog post about a fixed width border. For the mini dividers throughout the site.
+- [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535) - a blog post on how to build a mobile navigation. For the site's mobile navigation.
+- [morioh.com](https://morioh.com/p/8ed37dfd6b7d) - a tutorial for a FAQ accordion. For the site's FAQ section on the home page.
+- [GitHub Gist](https://gist.github.com/magnetikonline/8487169) - responsive Google Map embedding. For the site's contact page.
 
 ### Reference material
 
