@@ -3,7 +3,7 @@
 
 /* || GLOBAL STYLING */
 :root {
-    /* Set root font size to 10px */
+    /* Set root font size to 8px for small screens */
     font-size: 50%;
 
     /* || Fonts */
@@ -58,6 +58,7 @@
 
 @media all and (min-width: 1024px) {
     :root {
+        /* Set root font size to 10px for large screens */
         font-size: 62.5%;    
     }       
 }
