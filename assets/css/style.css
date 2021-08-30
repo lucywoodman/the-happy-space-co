@@ -34,6 +34,7 @@
     --brand-clay: hsl(3, 34%, 52%);
     --brand-green: hsl(140, 93%, 12%);
     --brand-mint: hsl(165, 86%, 86%);
+    --brand-grey: #727578;
     --text-color: hsl(0, 0%, 7%);
     --white: #fffefe;
 
@@ -152,7 +153,7 @@ blockquote {
 cite {
     font-size: var(--font-size-sm);
     font-style: normal;
-    color: var(--brand-clay);
+    color: var(--brand-grey);
 }
 
 address { 
@@ -997,7 +998,7 @@ textarea {
 .textarea {
     border-radius: 8px;
     border: 1px solid #ebebeb;
-    color: #727578;
+    color: var(--brand-grey);
     font-size: var(--font-size-md);
     line-height: var(--line-height-md);
     background: var(--white);
