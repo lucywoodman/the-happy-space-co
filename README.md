@@ -609,20 +609,53 @@ You can clone the repository by following these steps:
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-   7.Press Enter to create your local clone.
+7. Press Enter to create your local clone.
 
 ## Credits
 
-### Code
-
-- Source - for code snippet, or blog post.
-
 ### Media
 
-Unsplash was used for all imagery throughout the site. The license is copyright-free.
+Unsplash was used for all photos throughout the site. The license is copyright-free.
 In order of apearance:
 
-- Image description - [Unsplash link]
+- Woman sitting by a window (hero) - [Brooke Cagle](https://unsplash.com/photos/NoRsyXmHGpI)
+- Smiling man (hero testimonial) - [Ben Parker](https://unsplash.com/photos/OhKElOkQ3RE)
+- Female software engineer (first testimonial) - [ThisisEngineering](https://unsplash.com/photos/69wEv-G2W_s)
+- Person holding phone (second testimonial) - [Austin Distel](https://unsplash.com/photos/qgdJX9mvMJI)
+- Woman using laptop (gallery) - [Brooke Cagle](https://unsplash.com/photos/xcgh5_-QIXc)
+- Coworking office space (gallery) - [Andrea Davis](https://unsplash.com/photos/04G19lnpHcc)
+- Home interior design (gallery) - [Andrea Davis](https://unsplash.com/photos/w-ARisGf_Kw)
+- Coworking office space (gallery) - [CoWomen](https://unsplash.com/photos/XRGzgDmfjdw)
+- People standing on grey tiles (gallery) - [Ian Schneider](https://unsplash.com/photos/TamMbr4okv4)
+- Empty restaurant (gallery) - [Mengyi](https://unsplash.com/photos/CBGuFZoC6Mw)
+- Three people around a table (gallery) - [Brooke Cagle](https://unsplash.com/photos/g1Kr4Ozfoac)
+- Office desk space (gallery) - [Andrea Davis](https://unsplash.com/photos/GtqN1cTGocE)
+- WeWork Richmond (gallery) - [Eloise Ambursley](https://unsplash.com/photos/iRZqkdb8gK8)
+
+For the illustrations:
+
+- [Figma Community - Indian Doodle Pack](https://www.figma.com/community/file/892381006526736549)
+
+For the icons:
+
+- [Phosphoricons](https://phosphoricons.com/)
+
+### Code
+
+- [techbriefers.com](https://techbriefers.com/how-to-create-a-half-border-design-and-fixed-width-border-design-in-css/) - a blog post about a fixed width border. Referred to for the mini dividers throughout the site.
+- [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535) - a blog post on how to build a mobile navigation. Referred to for the site's mobile navigation.
+- [morioh.com](https://morioh.com/p/8ed37dfd6b7d) - a tutorial for a FAQ accordion. Referred to for the site's FAQ section on the home page.
+- [Andreas Storm](https://codepen.io/avstorm/pen/eYNLwVd) on Codepen - an example of radio input styling. Referred to for the site's contact page.
+- [GitHub Gist](https://gist.github.com/magnetikonline/8487169) - responsive Google Map embedding. Used for the site's contact page.
+
+### Reference material
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - general syntax reference.
+- [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - flexbox reference.
+
+### Other
+- [Namelix](https://namelix.com/app/?keywords=creative+technology) - startup name generator for testimonials
+- [Testimonial generator](https://testimonial-generator.com/index.php) - for testimonials
 
 ## Acknowledgements
 
@@ -630,3 +663,4 @@ I would like to take the opportunity to thank:
 
 - My family, friends and colleagues for their advice, support and help with testing.
 - My mentor Mo Shami for their feedback, advice and support.
+- Code Institute Slack for advice.
