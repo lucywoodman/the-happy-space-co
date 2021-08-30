@@ -1,7 +1,5 @@
 # The Happy Space Co.
 
-_This document is a work in progress_
-
 An inviting coworking space in the town center of Eastbourne. With modern facilities, cosy and relaxed decor and a cafe on site.
 
 Visitors can reserve desk space, offices or conference rooms on a short or longterm basis.
