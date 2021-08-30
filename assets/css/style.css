@@ -217,10 +217,15 @@ a:hover {
     text-decoration: none;
 }
 
+.trustpilot a {
+    padding: 1rem 0;
+}
+
 .trustpilot a:hover,
 .trustpilot a:active {
     text-decoration: none;
-    color: var(--brand-green);
+    box-shadow: none;
+    background: transparent;
 }
 
 /* || Special text classes */
