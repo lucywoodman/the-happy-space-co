@@ -228,17 +228,44 @@ The map highlights the location of the venue within the town center. The contact
 - CSS3
 - JavaScript (a tiny bit for the responsive navigation)
 
-### Frameworks, libraries and other tools
+### Frameworks and tools
 
-1. Git
-2. GitHub
-3. VSCode
-4. Figma
-5. Phosphoricons
-6. Google Fonts
-7. Unsplash
-8. Am I Responsive
-9. Google Maps
+<details><summary>Research, planning and wireframes</summary>
+<ol>
+   <li>VSCode (markdown)</li>
+   <li>Dribbble, Huemint and SaaSpages for inspiration</li>
+   <li>Invisionapp for moodboard</li>
+   <li>Figma for wireframes and notes</li>
+</ol>
+</details>
+
+<details><summary>Branding and design</summary>
+<ol>
+   <li>Figma</li>
+   <li>Google Fonts and Phosphoricons</li>
+   <li>Unsplash</li>
+   <li>Figma Community's Indian Doodle Illustration Pack</li>
+</ol>
+</details>
+
+<details><summary>Development</summary>
+<ol>
+   <li>Git and GitHub</li>
+   <li>VSCode</li>
+   <li>Figma's Favvy Favicon Exporter plugin</li>
+   <li>Figma's TinyImage Compressor plugin</li>
+   <li>TinyPNG for extra image compression</li>
+   <li>Google maps</li>
+</ol>
+</details>
+
+<details><summary>Docs</summary>
+<ol>
+   <li>VSCode (markdown)</li>
+   <li>Am I Responsive for the mockup</li>
+   <li>CloudApp for screenshots</li>
+</ol>
+</details>
 
 ## Validation
 
@@ -305,18 +332,18 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 The website was tested on the following devices:
 
-- Apple MacBook Pro and Air
-- iPhone X, iPhone SE
+- Apple MacBook Pro, Apple MacBook Air
+- iPhone X, iPhone 8, iPhone SE
 - Huawei P30 Pro
 
 ### Browser compatability
 
 The website was tested on the following browsers:
 
-- Microsoft Edge: notes of differences
+- Microsoft Edge
 - Google Chrome
 - Firefox
-- Safari
+- Safari: An odd issue with the first FAQ item where the white background has chunks missing. Also, the map takes up more space on the contact page.
 
 ### Testing user stories
 
@@ -605,5 +632,5 @@ In order of apearance:
 
 I would like to take the opportunity to thank:
 
-- My family, friends and colleagues for their advice, support and help with testing. Including Claud, Kate, Josh and Katja.
+- My family, friends and colleagues for their advice, support and help with testing.
 - My mentor Mo Shami for their feedback, advice and support.
